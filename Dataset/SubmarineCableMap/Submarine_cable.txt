@@ -1,0 +1,3 @@
+wget https://www.submarinecablemap.com/api/v3/cable/all.json
+wget https://www.submarinecablemap.com/api/v3/landing-point/landing-point-geo.json
+wget https://www.submarinecablemap.com/api/v3/cable/cable-geo.json
