@@ -6,3 +6,7 @@ wget https://www.submarinecablemap.com/api/v3/cable/cable-geo.json
 
 https://github.com/telegeography/www.submarinecablemap.com
 https://www2.telegeography.com/submarine-cable-faqs-frequently-asked-questions
+
+
+all country sql
+https://www.html-code-generator.com/mysql/country-name-table
