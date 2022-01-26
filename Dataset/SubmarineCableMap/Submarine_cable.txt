@@ -10,3 +10,22 @@ https://www2.telegeography.com/submarine-cable-faqs-frequently-asked-questions
 
 all country sql
 https://www.html-code-generator.com/mysql/country-name-table
+
+
+Mesh diagram -> 分析哪些节点是更孤立的
+https://g6.antv.vision/zh/examples/net/furchtermanLayout#fruchtermanClustering
+      // endArrow: {
+      //   path: 'M 0,0 L 8,4 L 8,-4 Z',
+      //   fill: '#e2e2e2',
+      // },
+	select submarine.id,
+       cable_id,
+       cable_name,
+       cable_length,
+       landingPoint_id,
+       landingPoint_name,
+       landingPoint_country,
+       continent_code
+	from submarine left join dess.world_countries on landingPoint_country = name
+https://www.theverge.com/22891031/tonga-volcano-eruption-broke-undersea-internet-cable-repair
+https://www.technologyreview.com/2022/01/18/1043790/tongas-volcano-internet-reconnected/
