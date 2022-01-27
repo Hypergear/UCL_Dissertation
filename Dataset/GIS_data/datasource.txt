@@ -1,0 +1,4 @@
+World_
+	https://www.marineregions.org/downloads.php
+World_Countries_(Generalized)
+	https://hub.arcgis.com/datasets/esri::world-countries-generalized
