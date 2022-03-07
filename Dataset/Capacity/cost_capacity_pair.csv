@@ -1,0 +1,511 @@
+id,name,cost,capacity,pair
+2africa,2Africa,925,,16
+acs-alaska-oregon-network-akorn,ACS Alaska-Oregon Network (AKORN),100,0.01,4
+aden-djibouti,Aden-Djibouti,6.725,,
+adria-1,Adria-1,13.4,0.000622,
+aec-1,AEC-1,300,78,6
+africa-coast-to-europe-ace,Africa Coast to Europe (ACE),700,20,
+africa-1,Africa-1,250,192,8
+alaska-united-east-au-east,Alaska United East (AU-East),100,0.01,2
+alaska-united-southeast-au-se,Alaska United Southeast (AU-SE),15.65,0.01,
+alaska-united-turnagain-arm-auta,Alaska United Turnagain Arm (AUTA),1.325,,
+alaska-united-west-au-west,Alaska United West (AU-West),30,0.64,4
+alba-1,ALBA-1,72,5.12,
+aletar,Aletar,23,0.005,1
+alonso-de-ojeda,Alonso de Ojeda,8.7,0.1,
+alpal-2,ALPAL-2,17.6,0.16,4
+america-movil-submarine-cable-system-1-amx-1,America Movil Submarine Cable System-1 (AMX-1),700,50,
+americas-i-north,Americas-I North,220,1.2,2
+americas-ii,Americas-II,350,10,12
+amerigo-vespucci,Amerigo Vespucci,15,,
+amitie,Amitie,182.3,23,16
+antillas-1,Antillas 1,,,
+apcn-2,APCN-2,110,25.6,4
+apollo,Apollo,350,64,4
+apollo-east-and-west,Apollo East and West,,,
+apricot,Apricot,300,,
+aqualink,Aqualink,,,
+arcos,ARCOS,250,8.4,12
+arsat-submarine-fiber-optic-cable,ARSAT Submarine Fiber Optic Cable,,,
+asia-africa-europe-1-aae-1,Asia Africa Europe-1 (AAE-1),800,80,5
+asia-connect-cable-1-acc1,Asia Connect Cable 1 (ACC1),,,
+asia-direct-cable-adc,Asia Direct Cable (ADC),235,140,
+asia-pacific-gateway-apg,Asia Pacific Gateway (APG),313,54,
+asia-submarine-cable-express-asecahaya-malaysia,Asia Submarine-cable Express (ASE)/Cahaya Malaysia,412,15.36,6
+asia-america-gateway-aag-cable-system,Asia-America Gateway (AAG) Cable System,500,28.8,3
+atisa,Atisa,7,7.2,6
+atlantic-crossing-1-ac-1,Atlantic Crossing-1 (AC-1),875,5.2,4
+atlas-offshore,Atlas Offshore,,,
+au-aleutian,AU-Aleutian,36.4,,6
+aurora-cable-system,AURORA Cable System,,,
+australia-japan-cable-ajc,Australia-Japan Cable (AJC),520,25.6,64
+australia-singapore-cable-asc,Australia-Singapore Cable (ASC),170,60,4
+avassa,Avassa,6.5,,2
+azerbaijan-turkmenistan,Azerbaijan-Turkmenistan,,,
+azores-fiber-optic-system-afos,Azores Fiber Optic System (AFOS),,,
+b2js-jakarta-bangka-batam-singapore-cable-system,B2JS (Jakarta-Bangka-Batam-Singapore) Cable System,,,
+bahamas-2,Bahamas 2,25,2.4,
+bahamas-domestic-submarine-network-bdsni,Bahamas Domestic Submarine Network (BDSNi),,,
+bahamas-internet-cable-system-bics,Bahamas Internet Cable System (BICS),31,12,
+balalink,Balalink,6.825,,
+balok,BALOK,1.25,,12
+baltic-sea-submarine-cable,Baltic Sea Submarine Cable,,,
+baltica,Baltica,16,0.005,6
+bass-strait-1,Bass Strait-1,22.5,1,
+bass-strait-2,Bass Strait-2,17,1,
+basslink,Basslink,600,0.64,6
+batam-dumai-melaka-bdm-cable-system,Batam Dumai Melaka (BDM) Cable System,76,2.56,4
+batam-sarawak-internet-cable-system-basics,Batam Sarawak Internet Cable System (BaSICS),19.05,,
+batam-singapore-cable-system-bscs,Batam Singapore Cable System (BSCS),13.1,0.08,3
+batam-rengit-cable-system-brcs,Batam-Rengit Cable System (BRCS),10,0.01,
+bay-of-bengal-gateway-bbg,Bay of Bengal Gateway (BBG),250,55,3
+bcs-east,BCS East,15,,96
+bcs-east-west-interlink,BCS East-West Interlink,20,,8
+bcs-north---phase-1,BCS North - Phase 1,30,,66
+bcs-north---phase-2,BCS North - Phase 2,,,
+berytar,BERYTAR,,,
+bharat-lanka-cable-system,Bharat Lanka Cable System,40,0.96,
+bicentenario,Bicentenario,,,
+bifrost,Bifrost,100,,12
+biznet-nusantara-cable-system-1-bncs-1,Biznet Nusantara Cable System-1 (BNCS-1),,,
+blue,Blue,400,,16
+bodo-rost-cable,Bodo-Rost Cable,2.725,,
+boracay-palawan-submarine-cable-system,Boracay-Palawan Submarine Cable System,20,4.8,12
+boriken-submarine-cable-system-bscs,Boriken Submarine Cable System (BSCS),16.75,,
+botnia,Botnia,8.5,0.0012,6
+brazilian-festoon,Brazilian Festoon,,,
+brusa,BRUSA,500,160,8
+bt-highlands-and-islands-submarine-cable-system,BT Highlands and Islands Submarine Cable System,,,
+bt-north-sea,BT North Sea,,,
+bt-mt-1,BT-MT-1,,,
+bugio,BUGIO,1.825,,
+cabo-verde-telecom-domestic-submarine-cable-phase-1,Cabo Verde Telecom Domestic Submarine Cable Phase 1,,,
+cabo-verde-telecom-domestic-submarine-cable-phase-2,Cabo Verde Telecom Domestic Submarine Cable Phase 2,,,
+cabo-verde-telecom-domestic-submarine-cable-phase-3,Cabo Verde Telecom Domestic Submarine Cable Phase 3,,,
+cadmos,CADMOS,8,0.000622,2
+cam-ring,CAM Ring,,,
+canalink,Canalink,157,5.12,4
+candalta,CANDALTA,2.75,,
+cantat-3,CANTAT-3,385,0.0075,
+cap-1,CAP-1,,,
+caribbean-express-cx,Caribbean Express (CX),300,20,18
+caribbean-regional-communications-infrastructure-program-carcip,Caribbean Regional Communications Infrastructure Program (CARCIP),5.625,,
+caribbean-bermuda-u-s-cbus,Caribbean-Bermuda U.S. (CBUS),10,2.5,2
+caucasus-cable-system,Caucasus Cable System,76,12.6,2
+cayman-jamaica-fiber-system-cjfs,Cayman-Jamaica Fiber System (CJFS),6.5,8.4,
+ceiba-1,Ceiba-1,7.175,,
+ceiba-2,Ceiba-2,15,24,3
+celtic-norse,Celtic Norse,52.5,,
+celtixconnect-1-cc-1,CeltixConnect-1 (CC-1),22,0.96,72
+challenger-bermuda-1-cb-1,Challenger Bermuda-1 (CB-1),50,0.32,
+channel-islands-9-liberty-submarine-cable,Channel Islands-9 Liberty Submarine Cable,,,
+chennai-andaman-nicobar-islands-cable,Chennai-Andaman & Nicobar Islands Cable,170,25.6,4
+chuuk-pohnpei-cable,Chuuk-Pohnpei Cable,,,
+circe-north,Circe North,,,
+circe-south,Circe South,,,
+c-lion1,C-Lion1,74,144,8
+cobracable,COBRAcable,8.15,,48
+cogim,COGIM,,,
+colombia-florida-subsea-fiber-cfx-1,Colombia-Florida Subsea Fiber (CFX-1),60.975,12.8,12
+colombian-festoon,Colombian Festoon,,,
+columbus-ii-b,Columbus-II b,600,600,2
+columbus-iii-azores-portugal,Columbus-III Azores-Portugal,236,0.32,2
+comoros-domestic-cable-system,Comoros Domestic Cable System,,,
+concerto,Concerto,25,0.0025,96
+confluence-1,Confluence-1,70,500,24
+converge-domestic-submarine-cable-network-cdscn,Converge Domestic Submarine Cable Network (CDSCN),,,
+cook-strait,Cook Strait,,,
+coral-sea-cable-system-cs,Coral Sea Cable System (CS虏),93,20,4
+corse-continent-4-cc4,Corse-Continent 4 (CC4),,,
+corse-continent-5-cc5,Corse-Continent 5 (CC5),,,
+cross-straits-cable-network,Cross Straits Cable Network,525,,
+crosschannel-fibre,CrossChannel Fibre,3.875,2400,96
+crosslake-fibre,Crosslake Fibre,3.05,,96
+curie,Curie,262.5,72,4
+damai-cable-system,DAMAI Cable System,14.375,,
+danica-north,Danica North,10,0.01,48
+danice,DANICE,76,5.1,4
+darwin-jakarta-singapore-cable-djsc,Darwin-Jakarta-Singapore Cable (DJSC),,,
+deep-blue-one,Deep Blue One,,,
+denmark-poland-2,Denmark-Poland 2,4.5,0.0025,
+denmark-sweden-15,Denmark-Sweden 15,,,
+denmark-sweden-16,Denmark-Sweden 16,2,0.0005,
+denmark-sweden-17,Denmark-Sweden 17,0.275,,
+denmark-sweden-18,Denmark-Sweden 18,,,
+denpasar-waingapu-cable-systems,Denpasar-Waingapu Cable Systems,,,
+dhiraagu-cable-network,Dhiraagu Cable Network,,,
+dhiraagu-slt-submarine-cable-network,Dhiraagu-SLT Submarine Cable Network,27,,
+didon,Didon,15,18,
+djibouti-africa-regional-express-1-dare1,Djibouti Africa Regional Express 1 (DARE1),86,36,3
+dos-continentes-l-ll,DOS CONTINENTES l & ll,2.625,460,24
+dumai-melaka-cable-system,Dumai-Melaka Cable System,15,0.32,
+dunant,Dunant,165,250,12
+eac-c2c,EAC-C2C,850,30,
+eastern-africa-submarine-system-eassy,Eastern Africa Submarine System (EASSy),247,11.8,2
+eastern-arctic-undersea-fibre-optic-network-eaufon,Eastern Arctic Undersea Fibre Optic Network (EAUFON),250,30,6
+eastern-caribbean-fiber-system-ecfs,Eastern Caribbean Fiber System (ECFS),56,1.1,6
+eastern-light,Eastern Light,10.5,,72
+east-west,East-West,35,2.5,
+east-west-submarine-cable-system,East-West Submarine Cable System,,,
+echo,Echo,255.3,144,12
+eclink,ECLink,31,7.2,12
+elektra-globalconnect-1-gc1,Elektra-GlobalConnect 1 (GC1),1.1,,
+ellalink,EllaLink,200,72,4
+e-llan,E-LLAN,,,
+emerald-bridge-fibres,Emerald Bridge Fibres,3,,
+energinet-laeso-varberg,Energinet Laeso-Varberg,,,
+energinet-lyngsa-laeso,Energinet Lyngsa-Laeso,,,
+epic-malta-sicily-cable-system-emscs,Epic Malta-Sicily Cable System (EMSCS),,,
+equiano,Equiano,,12,12
+esat-1,ESAT-1,15,0.0025,
+esat-2,ESAT-2,6.933,0.01,
+estepona-tetouan,Estepona-Tetouan,10,0.0037,
+europe-india-gateway-eig,Europe India Gateway (EIG),700,3.84,
+eviny-digital,Eviny Digital,,,
+exa-express,EXA Express,120,53,6
+exa-north-and-south,EXA North and South,320,25,4
+falcon,FALCON,900,2.56,8
+far-east-submarine-cable-system,Far East Submarine Cable System,50,1.6,2
+farice-1,FARICE-1,25,0.02,
+farland-north,Farland North,10,0.018,
+faster,FASTER,350,60,6
+fehmarn-blt,Fehmarn B盲lt,10,0.0025,192
+fiber-optic-gulf-fog,Fiber Optic Gulf (FOG),80,0.02,4
+fibra-optica-al-pacfico,Fibra Optica al Pac铆fico,,,
+fibra-optica-austral,Fibra Optica Austral,100,16,
+fibralink,Fibralink,30,7.2,3
+finland-estonia-connection-fec,Finland Estonia Connection (FEC),6.25,,
+finland-estonia-2-eesf-2,Finland-Estonia 2 (EESF-2),,,
+finland-estonia-3-eesf-3,Finland-Estonia 3 (EESF-3),,,
+firmina,Firmina,,,12
+flag-atlantic-1-fa-1,FLAG Atlantic-1 (FA-1),900,24,6
+flag-europe-asia-fea,FLAG Europe-Asia (FEA),720,0.5,2
+flag-north-asia-loopreach-north-asia-loop,FLAG North Asia Loop/REACH North Asia Loop,900,0.08,6
+flores-corvo-cable-system,Flores-Corvo Cable System,20,0.96,6
+fly-lion3,FLY-LION3,10,4,2
+fos-quellon-chacabuco,FOS Quellon-Chacabuco,8.75,,
+galapagos-cable-system,Galapagos Cable System,40,20,2
+gemini-bermuda,Gemini Bermuda,40,2.5,
+geo-eirgrid,Geo-Eirgrid,4.672,,
+georgia-russia,Georgia-Russia,20,0.0025,4
+germany-denmark-3,Germany-Denmark 3,,,
+gignet-1,GigNet-1,,,
+glo-1,Glo-1,260,2.5,2
+global-caribbean-network-gcn,Global Caribbean Network (GCN),17.52,5,
+globalconnect-2-gc2,GlobalConnect 2 (GC2),2.375,,
+globalconnect-3-gc3,GlobalConnect 3 (GC3),4.75,,
+globalconnect-kpn,GlobalConnect-KPN,1.075,,
+globenet,GlobeNet,510,9.2,4
+globenet,GlobeNet,,,
+go-1-mediterranean-cable-system,GO-1 Mediterranean Cable System,10,,
+gondwana-1,Gondwana-1,57.5,0.64,
+gondwana-2picot-2,Gondwana-2/Picot-2,,,
+grace-hopper,Grace Hopper,170,,16
+greenland-connect,Greenland Connect,126,2.56,2
+greenland-connect-north,Greenland Connect North,80,4.8,
+gtmo-1,GTMO-1,,,
+gtmo-pr,GTMO-PR,,,
+guadeloupe-cable-des-iles-du-sud-gcis,Guadeloupe Cable des Iles du Sud (GCIS),2.85,,
+guam-okinawa-kyushu-incheon-goki,Guam Okinawa Kyushu Incheon (GOKI),120,0.08,
+guernsey-jersey-4,Guernsey-Jersey-4,,,
+gulf-bridge-international-cable-system-gbicsmiddle-east-north-africa-mena-cable-system,Gulf Bridge International Cable System (GBICS)/Middle East North Africa (MENA) Cable System,445,51.2,4
+gulf-of-california-cable,Gulf of California Cable,,,
+gulf-of-mexico-fiber-optic-network,Gulf of Mexico Fiber Optic Network,,,
+gulf2africa-g2a,Gulf2Africa (G2A),,,
+hainan-to-hong-kong-express-h2he,Hainan to Hong Kong Express (H2HE),19.5,,16
+hannibal-system,HANNIBAL System,10,9.6,3
+hantru1-cable-system,HANTRU1 Cable System,130,,
+havfrueaec-2,Havfrue/AEC-2,200,108,6
+havfrueaec-2,Havfrue/AEC-2,,,
+havhingstenceltixconnect-2-cc-2,Havhingsten/CeltixConnect-2 (CC-2),7.525,,
+havhingstennorth-sea-connect-nsc,Havhingsten/North Sea Connect (NSC),16.525,,
+havsil,Havsil,3,,
+hawaiki,Hawaiki,350,67,4
+hawaiki-nui,Hawaiki Nui,550,240,12
+hawk,Hawk,250,2.72,4
+hics-hawaii-inter-island-cable-system,HICS (Hawaii Inter-Island Cable System),11.975,,
+hifn-hawaii-island-fibre-network,HIFN (Hawaii Island Fibre Network),13.225,,
+high-capacity-undersea-guernsey-optical-fibre-hugo,High-capacity Undersea Guernsey Optical-fibre (HUGO),11.96,3.3,
+hokkaido-akita-cable,Hokkaido-Akita Cable,,,
+hokkaido-sakhalin-cable-system-hscs,Hokkaido-Sakhalin Cable System (HSCS),20,0.64,
+honotua,Honotua,122,0.64,
+i2i-cable-network-i2icn,i2i Cable Network (i2icn),90,84,8
+imewe,IMEWE,,,
+india-asia-xpress-iax,India Asia Xpress (IAX),,200,
+india-europe-xpress-iex,India Europe Xpress (IEX),,200,
+indigo-central,INDIGO-Central,150,36,2
+indigo-west,INDIGO-West,225,36,2
+indonesia-global-gateway-igg-system,Indonesia Global Gateway (IGG) System,,,
+ingrid,INGRID,,,
+interchange-cable-network-1-icn1,Interchange Cable Network 1 (ICN1),32,0.32,
+ionian,Ionian,8,360,24
+ip-only-denmark-sweden,IP-Only Denmark-Sweden,,,
+iris,IRIS,42.5,18,6
+isles-of-scilly-cable,Isles of Scilly Cable,,,
+italy-albania,Italy-Albania,10,0.0025,1
+italy-croatia,Italy-Croatia,,,
+italy-greece-1,Italy-Greece 1,11,0.01,24
+italy-libya,Italy-Libya,10,0.12,2
+italy-malta,Italy-Malta,5.95,,2
+italy-monaco,Italy-Monaco,10,0.000565,1
+ixchel,Ixchel,,,
+jaka2ladema,JaKa2LaDeMa,116,9.6,3
+jakabare,JAKABARE,40,1.28,
+jakarta-surabaya-cable-system-jayabaya,Jakarta Surabaya Cable System (JAYABAYA),22.2,,
+jakarta-bangka-bintan-batam-singapore-b3js,Jakarta-Bangka-Bintan-Batam-Singapore (B3JS),,,
+jambi-batam-cable-system-jiba,Jambi-Batam Cable System (JIBA),6.675,,
+janna,Janna,15.85,,
+japan-information-highway-jih,Japan Information Highway (JIH),,,
+japan-guam-australia-north-jga-n,Japan-Guam-Australia North (JGA-N),65,24,2
+japan-guam-australia-south-jga-s,Japan-Guam-Australia South (JGA-S),175,36,2
+japan-u-s-cable-network-jus,Japan-U.S. Cable Network (JUS),140,21.6,4
+jasuka,JASUKA,280,0.32,
+java-bali-cable-system-jbcs,Java Bali Cable System (JBCS),1,,
+java-kalimantan-sulawesi-jakasusi,Java-Kalimantan-Sulawesi (JAKASUSI),,,
+jerry-newton,Jerry Newton,,,
+jonah,Jonah,15,12.8,2
+jscfs,JSCFS,52.5,12.8,8
+junior,Junior,9.75,,8
+jupiter,JUPITER,364.425,60,5
+jupiter,JUPITER,,,
+kafos,KAFOS,20,0.0012,
+kaliningrad-cable,Kaliningrad Cable,,,
+kanawa,Kanawa,20,10,2
+kattegat-2,Kattegat 2,10,10.02,6
+kerch-strait-cable,Kerch Strait Cable,1.15,,
+ketchcan1-submarine-fiber-cable-system,KetchCan1 Submarine Fiber Cable System,4,,12
+kodiak-kenai-fiber-link-kkfl,Kodiak Kenai Fiber Link (KKFL),30,0.01,4
+korea-japan-cable-network-kjcn,Korea-Japan Cable Network (KJCN),12.5,28.8,12
+kumul-domestic-submarine-cable-system,Kumul Domestic Submarine Cable System,,,
+kupang-alor-cable-systems,Kupang-Alor Cable Systems,,,
+kuwait-iran,Kuwait-Iran,20,0.0025,6
+la-gomera-el-hierro,La Gomera-El Hierro,,,
+labuan-brunei-submarine-cable,Labuan-Brunei Submarine Cable,,,
+lanis-1,Lanis-1,,,
+lanis-2,Lanis-2,,,
+lanis-3,Lanis-3,,,
+latvia-sweden-1-lv-se-1,Latvia-Sweden 1 (LV-SE 1),,,
+lazaro-cardenas-manzanillo-santiago-submarine-cable-system-lcmsscs,Lazaro Cardenas-Manzanillo Santiago Submarine Cable System (LCMSSCS),8.05,,
+leif-erikson,Leif Erikson,102.5,,
+lev-submarine-system,Lev Submarine System,175,0.0025,2
+lfon-libyan-fiber-optic-network,LFON (Libyan Fiber Optic Network),,,
+libreville-port-gentil-cable,Libreville-Port Gentil Cable,4.95,,
+link-1-phase-1,Link 1 Phase-1,,,
+link-1-phase-2,Link 1 Phase-2,,,
+link-2-phase-1,Link 2 Phase-1,,,
+link-2-phase-2,Link 2 Phase-2,,,
+link-3-phase-1,Link 3 Phase-1,,,
+link-3-phase-2,Link 3 Phase-2,,,
+link-4-phase-2,Link 4 Phase-2,,,
+link-5-phase-2,Link 5 Phase-2,,,
+lower-indian-ocean-network-lion,Lower Indian Ocean Network (LION),30,1.28,2
+lower-indian-ocean-network-2-lion2,Lower Indian Ocean Network 2 (LION2),76,1.28,2
+luwuk-tutuyan-cable-system-ltcs,Luwuk Tutuyan Cable System (LTCS),11.15,,
+lynn-canal-fiber,Lynn Canal Fiber,3.45,,
+mainone,MainOne,240,10,
+malaysia-cambodia-thailand-mct-cable,Malaysia-Cambodia-Thailand (MCT) Cable,60,30,6
+malbec,Malbec,65,,6
+maldives-sri-lanka-cable-msc,Maldives Sri Lanka Cable (MSC),21,,4
+malta-gozo-cable,Malta-Gozo Cable,0.325,,12
+malta-italy-interconnector,Malta-Italy Interconnector,2.375,,
+manatua,Manatua,100,10,2
+mandji-fiber-optic-cable,Mandji Fiber Optic Cable,1.25,,24
+maple-leaf-fibre,Maple Leaf Fibre,,,
+marea,MAREA,165,200,8
+mariana-guam-cable,Mariana-Guam Cable,,,
+maroc-telecom-west-africa,Maroc Telecom West Africa,,,
+mataram-kupang-cable-system-mkcs,Mataram Kupang Cable System (MKCS),94,1.8,6
+matrix-cable-system,Matrix Cable System,30,2.56,4
+mauritius-and-rodrigues-submarine-cable-system-mars,Mauritius and Rodrigues Submarine Cable System (MARS),17.5,8,2
+maya-1,Maya-1,120,0.9225,2
+med-cable-network,Med Cable Network,40,0.02,
+mednautilus-submarine-system,MedNautilus Submarine System,190,38.4,6
+medusa-submarine-cable-system,Medusa Submarine Cable System,352,480,24
+melita-1,Melita 1,14,0.00005,
+meltingpot-indianoceanic-submarine-system-metiss,Meltingpot Indianoceanic Submarine System (METISS),75,24,
+mid-atlantic-crossing-mac,Mid-Atlantic Crossing (MAC),200,0.92,2
+middle-east-north-africa-mena-cable-systemgulf-bridge-international,Middle East North Africa (MENA) Cable System/Gulf Bridge International,210,57.56,6
+minoas-east-and-west,Minoas East and West,,,
+mist,MIST,400,240,12
+miyazaki-okinawa-cable-moc,Miyazaki-Okinawa Cable (MOC),,,
+monet,Monet,280,60,6
+moratelindo-international-cable-system-1-mic-1,Moratelindo International Cable System-1 (MIC-1),10,0.01,
+n0r5ke-viking,N0r5ke Viking,18.75,,
+national-digital-transmission-network-ndtn,National Digital Transmission Network (NDTN),,,
+nationwide-submarine-cable-ooredoo-maldives-nascom,Nationwide Submarine Cable Ooredoo Maldives (NaSCOM),,,
+natitua,Natitua,62.5,10,
+natitua-sud,Natitua Sud,,,
+nelson-levin,Nelson-Levin,5.3,,
+new-cross-pacific-ncp-cable-system,New Cross Pacific (NCP) Cable System,350,80,7
+nigeria-cameroon-submarine-cable-system-ncscs,Nigeria Cameroon Submarine Cable System (NCSCS),30,12.8,6
+no-uk,NO-UK,20,216,8
+nordbalt,NordBalt,10,,
+north-west-cable-system,North West Cable System,,12,2
+northern-lights,Northern Lights,,,
+northstar,NorthStar,90,0.01,
+nzadi-cable-system,Nzadi Cable System,,,
+okinawa-cellular-cable,Okinawa Cellular Cable,20,80,
+oman-australia-cable-oac,Oman Australia Cable (OAC),242.5,39,3
+omranepeg-cable-system,OMRAN/EPEG Cable System,15,,
+oran-valencia-orval,Oran-Valencia (ORVAL),27,40,4
+oteglobe-kokkini-bari,OTEGLOBE Kokkini-Bari,,,
+pacific-caribbean-cable-system-pccs,Pacific Caribbean Cable System (PCCS),160,45,6
+pacific-crossing-1-pc-1,Pacific Crossing-1 (PC-1),,,
+pacific-light-cable-network-plcn,Pacific Light Cable Network (PLCN),300,144,6
+pacific-light-cable-network-plcn,Pacific Light Cable Network (PLCN),,,
+palapa-ring-east,Palapa Ring East,,,
+palapa-ring-middle,Palapa Ring Middle,,,
+palapa-ring-west,Palapa Ring West,,,
+palawa-iloilo-cable-system,Palawa-Iloilo Cable System,75,,
+pan-european-crossing-uk-belgium,Pan European Crossing (UK-Belgium),,,
+pan-european-crossing-uk-ireland,Pan European Crossing (UK-Ireland),,,
+pan-american-crossing-pac,Pan-American Crossing (PAC),350,3.2,2
+paniolo-cable-network,Paniolo Cable Network,14.375,,24
+pasuli,PASULI,1,,
+peace-cable,PEACE Cable,425,16,6
+penbal-5,PENBAL-5,7.725,,
+pencan-8,Pencan-8,,,
+pencan-9,Pencan-9,,,
+persona,Persona,20,,
+pgascom,PGASCOM,6.6,,
+picot-1,Picot-1,,,
+pipe-pacific-cable-1-ppc-1,PIPE Pacific Cable-1 (PPC-1),650,8.4,4
+pishgaman-oman-iran-poi-network,Pishgaman Oman Iran (POI) Network,10,,
+pishgaman-oman-iran-poi-network,Pishgaman Oman Iran (POI) Network,,,
+pldt-domestic-fiber-optic-network-dfon,PLDT Domestic Fiber Optic Network (DFON),,,
+png-lng,PNG LNG,5,,
+polar-circle-cable,Polar Circle Cable,,,
+polar-express,Polar Express,889,104,6
+poseidon,POSEIDON,,,
+prat,Prat,87.5,9.6,36
+qatar-u-a-e-submarine-cable-system,Qatar-U.A.E. Submarine Cable System,10,0.02,
+quintillion-subsea-cable-network,Quintillion Subsea Cable Network,150,30,3
+raman,Raman,400,,16
+rockabill,Rockabill,5.525,,
+russia-japan-cable-network-rjcn,Russia-Japan Cable Network (RJCN),50,0.64,
+rnne-rdvig,R酶nne-R酶dvig,,,
+saba-statia-cable-system-sscs,"Saba, Statia Cable System (SSCS)",,,
+safe,SAFE,350,0.44,
+sakhalin-kuril-islands-cable,Sakhalin-Kuril Islands Cable,,,
+samoa-american-samoa-sas,Samoa-American Samoa (SAS),6.25,,
+san-andres-isla-tolu-submarine-cable-sait,San Andres Isla Tolu Submarine Cable (SAIT),2.065,,
+sape-labuanbajo-ende-kupang-cable-systems,Sape-LabuanBajo-Ende-Kupang Cable Systems,,,
+sat-3wasc,SAT-3/WASC,370,0.8,2
+saudi-arabia-sudan-1-sas-1,Saudi Arabia-Sudan-1 (SAS-1),20,1.28,4
+saudi-arabia-sudan-2-sas-2,Saudi Arabia-Sudan-2 (SAS-2),8.25,,
+saudi-vision,Saudi Vision,,,
+scandinavian-ring-north,Scandinavian Ring North,0.25,0.24,96
+scandinavian-ring-south,Scandinavian Ring South,0.8,0.24,96
+scotland-northern-ireland-1,Scotland-Northern Ireland 1,,,
+scotland-northern-ireland-2,Scotland-Northern Ireland 2,,,
+scotland-northern-ireland-3,Scotland-Northern Ireland 3,,,
+scotland-northern-ireland-4,Scotland-Northern Ireland 4,,,
+scylla,Scylla,,,
+sea2shore,sea2shore,0.8,,
+seabras-1,Seabras-1,509,72,6
+seacomtata-tgn-eurasia,SEACOM/Tata TGN-Eurasia,750,7.28,
+sealink,SEALink,,,
+sea-us,SEA-US,,,
+seamewe-3,SeaMeWe-3,,,
+seamewe-4,SeaMeWe-4,,,
+seamewe-5,SeaMeWe-5,,,
+seamewe-6,SeaMeWe-6,,,
+seax-1,SEAX-1,45,,24
+sednalink-fibre,SednaLink Fibre,,,
+segunda-fos-canal-de-chacao,Segunda FOS Canal de Chacao,1,,
+senegal-horn-of-africa-regional-express-share-cable,Senegal Horn of Africa Regional Express (SHARE) Cable,18,16,
+seychelles-to-east-africa-system-seas,Seychelles to East Africa System (SEAS),,,
+shefa-2,SHEFA-2,27,0.57,
+silphium,Silphium,20,1.2,3
+singapore-myanmar-sigmar,Singapore-Myanmar (SIGMAR),80,,4
+sint-maarten-puerto-rico-network-one-smpr-1,Sint Maarten Puerto Rico Network One (SMPR-1),15,0.0025,
+sir-abu-nuayr-cable,Sir Abu Nu鈥檃yr Cable,,,
+sirius-north,Sirius North,10,,
+sirius-south,Sirius South,10,0.48,
+sistem-kabel-rakyat-1malaysia-skr1m,Sistem Kabel Rakyat 1Malaysia (SKR1M),100,6,
+sjjk,SJJK,13.575,,
+skagenfiber-west,Skagenfiber West,10,1920,48
+skagerrak-4,Skagerrak 4,3.425,,
+smpcs-packet-1,SMPCS Packet-1,71,40,
+smpcs-packet-2,SMPCS Packet-2,,,
+solas,Solas,5,0.005,
+sorsogon-samar-submarine-fiber-optical-interconnection-project-sssfoip,Sorsogon-Samar Submarine Fiber Optical Interconnection Project (SSSFOIP),525,,24
+south-america-1-sam-1,South America-1 (SAm-1),650,19.2,4
+south-american-crossing-sac,South American Crossing (SAC),520,4.84,4
+south-atlantic-cable-system-sacs,South Atlantic Cable System (SACS),130,40,4
+south-atlantic-inter-link-sail,South Atlantic Inter Link (SAIL),487,32,4
+south-pacific-cable-system-spscmistral,South Pacific Cable System (SPSC)/Mistral,182,108,6
+southeast-asia-japan-cable-sjc,Southeast Asia Japan Cable (SJC),400,28,6
+southeast-asia-japan-cable-2-sjc2,Southeast Asia-Japan Cable 2 (SJC2),265,144,8
+southern-caribbean-fiber,Southern Caribbean Fiber,,,
+southern-cross-cable-network-sccn,Southern Cross Cable Network (SCCN),130,22,3
+southern-cross-next,Southern Cross NEXT,300,72,4
+st-pierre-and-miquelon-cable,St. Pierre and Miquelon Cable,5,,
+st-thomas-st-croix-system,St. Thomas-St. Croix System,4.575,,
+strategic-evolution-underwater-link-seul,Strategic Evolution Underwater Link (SEUL),0.625,,8
+s-u-b-cable-system,S-U-B Cable System,,,
+subcan-link-1,Subcan Link 1,3.575,,
+subcan-link-2,Subcan Link 2,3.4,,
+sumatera-bangka-cable-system-sbcs,Sumatera Bangka Cable System (SBCS),1.425,,
+suriname-guyana-submarine-cable-system-sg-scs,Suriname-Guyana Submarine Cable System (SG-SCS),54,1.28,2
+svalbard-undersea-cable-system,Svalbard Undersea Cable System,80,4.8,
+swansea-brean,Swansea-Brean,2.425,,
+sweden-estonia-ee-s-1,Sweden-Estonia (EE-S 1),,,
+sweden-finland-4-sfs-4,Sweden-Finland 4 (SFS-4),,,
+sweden-finland-link-sfl,Sweden-Finland Link (SFL),,,
+sweden-latvia,Sweden-Latvia,4.375,0.0025,34
+taba-aqaba,Taba-Aqaba,0.325,,
+taino-carib,Taino-Carib,,,
+taiwan-strait-express-1-tse-1,Taiwan Strait Express-1 (TSE-1),10,6.4,8
+tamares-north,Tamares North,8.625,,
+tampnet-offshore-foc-network,Tampnet Offshore FOC Network,,,
+tangerine,Tangerine,10,0.24,96
+tanjun-pandan-sungai-kakap-cable-system,Tanjun Pandan-Sungai Kakap Cable System,8.7,,
+tannat,Tannat,50,90,6
+tannat,Tannat,10,90,
+tarakan-selor-cable-system-tscs,Tarakan Selor Cable System (TSCS),2.075,,
+tasman-global-access-tga-cable,Tasman Global Access (TGA) Cable,60,20,2
+tata-tgn-atlantic,Tata TGN-Atlantic,340,50,4
+tata-tgn-gulf,Tata TGN-Gulf,200,1.28,2
+tata-tgn-intra-asia-tgn-ia,Tata TGN-Intra Asia (TGN-IA),180,3.84,
+tata-tgn-pacific,Tata TGN-Pacific,580,76,8
+tata-tgn-tata-indicom,Tata TGN-Tata Indicom,90,5.12,8
+tata-tgn-western-europe,Tata TGN-Western Europe,100,3.84,
+te-northtgn-eurasiaseacomalexandrosmedex,TE North/TGN-Eurasia/SEACOM/Alexandros/Medex,240.85,30,
+telstra-endeavour,Telstra Endeavour,228.125,1.28,2
+tenerife-gran-canaria,Tenerife-Gran Canaria,2.75,,
+tenerife-la-gomera-la-palma,Tenerife-La Gomera-La Palma,5.55,,
+tenerife-la-palma,Tenerife-La Palma,,,
+terra-sw,TERRA SW,,,
+thailand-indonesia-singapore-tis,Thailand-Indonesia-Singapore (TIS),36,0.03,
+the-east-african-marine-system-teams,The East African Marine System (TEAMS),130,1.28,
+tobrok-emasaed-cable-system,Tobrok-Emasaed Cable System,,,
+tokelau-submarine-cable,Tokelau Submarine Cable,6.25,,2
+tonga-cable,Tonga Cable,,,
+tonga-domestic-cable-extension-tdce,Tonga Domestic Cable Extension (TDCE),10.5,40,2
+topaz,Topaz,,,
+trans-caspian-fiber-optic-tcfo,Trans Caspian Fiber Optic (TCFO),,,
+trans-pacific-express-tpe-cable-system,Trans-Pacific Express (TPE) Cable System,440,25.6,4
+transcan-2,TRANSCAN-2,,,
+transcan-3,TRANSCAN-3,5.25,,
+transworld-tw1,Transworld (TW1),40,1.28,
+trapani-kelibia,Trapani-Kelibia,5225,,
+tt-1,TT-1,1.2,,
+tui-samoa,Tui-Samoa,32.5,17.6,2
+turcyos-1,Turcyos-1,,,
+turcyos-2,Turcyos-2,5.325,,
+tverrlinken,Tverrlinken,,,
+uae-iran,UAE-Iran,4.25,,
+ugarit,UGARIT,16,0.000622,
+uk-channel-islands-7,UK-Channel Islands-7,9.088,0.0025,
+uk-channel-islands-8,UK-Channel Islands-8,16.263,0.000155,
+ultramar-ge,Ultramar GE,6.575,,
+ulysses-2,Ulysses 2,,,
+unisur,Unisur,74,0.00056,
+unityeac-pacific,Unity/EAC-Pacific,300,76.8,8
+venezuelan-festoon,Venezuelan Festoon,,,
+wall-li,WALL-LI,3.125,,96
+west-africa-cable-system-wacs,West Africa Cable System (WACS),600,14.5,4
+x-link-submarine-cable,X-Link Submarine Cable,19.375,,
+yellow,Yellow,,,
+zeus,Zeus,,4000,192
