@@ -108,7 +108,7 @@ cobracable,COBRAcable,8.15,,48
 cogim,COGIM,,,
 colombia-florida-subsea-fiber-cfx-1,Colombia-Florida Subsea Fiber (CFX-1),60.975,12.8,12
 colombian-festoon,Colombian Festoon,,,
-columbus-ii-b,Columbus-II b,600,600,2
+columbus-ii-b,Columbus-II b,600,0.56,2
 columbus-iii-azores-portugal,Columbus-III Azores-Portugal,236,0.32,2
 comoros-domestic-cable-system,Comoros Domestic Cable System,,,
 concerto,Concerto,25,0.0025,96
@@ -321,7 +321,7 @@ maya-1,Maya-1,120,0.9225,2
 med-cable-network,Med Cable Network,40,0.02,
 mednautilus-submarine-system,MedNautilus Submarine System,190,38.4,6
 medusa-submarine-cable-system,Medusa Submarine Cable System,352,480,24
-melita-1,Melita 1,14,0.00005,
+melita-1,Melita 1,14,0.05,
 meltingpot-indianoceanic-submarine-system-metiss,Meltingpot Indianoceanic Submarine System (METISS),75,24,
 mid-atlantic-crossing-mac,Mid-Atlantic Crossing (MAC),200,0.92,2
 middle-east-north-africa-mena-cable-systemgulf-bridge-international,Middle East North Africa (MENA) Cable System/Gulf Bridge International,210,57.56,6
@@ -489,7 +489,7 @@ trans-pacific-express-tpe-cable-system,Trans-Pacific Express (TPE) Cable System,
 transcan-2,TRANSCAN-2,,,
 transcan-3,TRANSCAN-3,5.25,,
 transworld-tw1,Transworld (TW1),40,1.28,
-trapani-kelibia,Trapani-Kelibia,5225,,
+trapani-kelibia,Trapani-Kelibia,5.225,,
 tt-1,TT-1,1.2,,
 tui-samoa,Tui-Samoa,32.5,17.6,2
 turcyos-1,Turcyos-1,,,
