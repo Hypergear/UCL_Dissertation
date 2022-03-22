@@ -1,5 +1,5 @@
 # Cornerstone of global communication: Vulnerabilities of the international submarine telecommunication cable
-
+[toc]
 ## Research objectives and research question
 ### Research question
 Which part of world and its internet services capacity are more vulnerable to the fibre optic submarine telecommunication cable(STC) failure.
@@ -16,11 +16,11 @@ Which part of world and its internet services capacity are more vulnerable to th
 
 ## Background / Preliminary Literature Review
 ### Background
-As the progress of the information technology on mobile devices combined with the raise of the 5G technology and cloud computing services, the demand on the higher stand internet services can be foreseen. World need a media to transmit big amount of data inexpensively in the long range. As the "high way" of the data communication, the optic fibre is the most common tool for wired long-distance data communication.(Kangovi, 2017) There are two types of state level fiber optic cables: fibre optic terrestrial telecommunication cable(TTC) and fibre optic submarine telecommunication cable(STC), in terms of useability latter one gains bigger market share. Nowadays STC is responsible for more than 98% of the global internet transmission (Winseck, 2017) with the total length of 1.2 million KM of STC were constructed. (Wang et al., 2019). In some terms, any internet communication is dependent on the functional working of STC in the field like: academia, education, entertainment, finance, medication and military. Considering the irreplaceability of STC in all aspect of the people's daily life, the failure could cause significant negative impact on the social and economic disruptions on a community or society. 
+As the progress of the information technology on mobile devices combined with the raise of the 5G technology and cloud computing services, the demand on the higher stand internet services can be foreseen. World need a media to transmit big amount of data inexpensively in the long range. As the "high way" of the data communication, the optic fibre is the most common tool for wired long-distance data communication.(Kangovi, 2017) There are two types of state level fiber optic cables: fibre optic terrestrial telecommunication cable(TTC) and fibre optic submarine telecommunication cable(STC), in terms of useability latter one gains bigger market share.(Marra et al., 2018) Nowadays STC is responsible for more than 98% of the global internet transmission (Winseck, 2017) with the total length of 1.2 million KM of STC were constructed. (Wang et al., 2019). In some terms, any internet communication is dependent on the functional working of STC in the field like: academia, education, entertainment, finance, medication and military. Considering the irreplaceability of STC in all aspect of the people's daily life, the failure could cause significant negative impact on the social and economic disruptions on a community or society. 
 
 The failure of a STC might not give inaccessability of the worldwide internet, as the nature the internet routing topology(Calvert, Doar and Zegura, 1997) suggested that connection can still be established by a long and less table connection.(Turner et al., 2010b). But it is not true for all the countries. In 2008 either SEA-ME-WE 4 or FLAG was damaged by a dragging ship anchor, the internet automatically reroute date to SEA-ME-WE 3 and overwhelmed its design capacity which subsequently caused more than 50% of internet services interruption in middle-east area. (Zetter, 2008) Fore recently, in 2022 the volcano eruption in Tonga cause the failure on Tonga's only STC and the nation lost almost all the communication with rest of the world for 5 weeks.(Bateman, 2022) Due to the commercial interest and limit in internet usage, usually less developed countries and remote island such as Chile or Marshall island do not have an alternative STC for redundancy.(Dominey-Howes, 2022) Obversely these countries are more dependent and suffers more losses if the STC breaks down. 
     
-Even STC is a world spread infrastructure, there are still 4 billions of people do not have access to internet, the satellite internet can be an alternative technology to replace the STC by using the non-synchronous orbit satellite.(Graydon and Parks, 2019) These satellite rotates around the earth obit, providing wireless internet connection to the customer near the earth surface. If the satellite is located in geostationary Earth orbit (GEO), user will suffer from the high latency and limited bandwidth, whereas the low Earth orbit (LEO) satellites can significant mitigate this issue but LEO acquires hundreds of thousands satellites to provide worldwide coverage which gives higher standards on the internet services provider(ISP).(Deutschmann et al., 2021) The satellite internet services always have higher requirements on the user budget, as the extra devices and expensive data package need to be pre-purchased before the usage.(starlink, 2022)
+Even STC is a world spread infrastructure, there are still 4 billions of people do not have access to internet, the satellite internet can be an alternative technology to replace the STC by using the non-synchronous orbit satellite.(Graydon and Parks, 2019) These satellite rotates around the earth obit, providing wireless internet connection to the customer near the earth surface. If the satellite is located in geostationary Earth orbit (GEO), user will suffer from the high latency and limited bandwidth, whereas the low Earth orbit (LEO) satellites can significant mitigate this issue but LEO acquires hundreds of thousands satellites to provide worldwide coverage which gives higher standards on the internet services provider(ISP).(Deutschmann et al., 2021) But satellite internet services always have higher requirements on the user budget than STC, as the extra devices and expensive data package need to be pre-purchased before the usage.(starlink, 2022)
 
 ### Literature Review
 
@@ -31,7 +31,7 @@ In contrast to the importance of the STC in the real world, the research attenti
 
 #### Technical factors lead of the STC failure
 
-To identify the real world challenges STC face, some intersected content between this section and destruction and espionage. But this section focus on the human accidental damages and the damages caused by the nature disaster.
+To identify the real world challenges STC face, some intersected content between this section and "destruction and espionage". But this section focus on the human accidental damages and the damages caused by the nature disaster.
 
 Considering the cost of assembly and the importance of the network connectivity, the STC is designed to achieve high reliability of 25 years service life without any maintenance.(Worthington, 1984) STC are laid on the seabed where the depth could reach up to 8000m which is under the condition of high water pressure, rough rocks combined with marine corrosion to the STC's protection layer.(Laque, 1975)(Beaufils, 2000) 
 
@@ -59,7 +59,21 @@ Earthquakes, volcanic eruption, tsunami and submarine landslides are believed to
 
 #### Regulations and international law applied to STC
 
-As the nature of STC provides the transnational communication, the STC usually connects multiple countries even different continents, which makes complicates the jurisdiction.
+As the nature of STC provides the transnational communication, the STC usually connects multiple countries even different continents, which complicates the jurisdiction. Thus the legal stand of STC remains on 2 international agreement, the 1884 Convention for the Protection of Submarine Telegraph Cables(Cable Convention)(Cable Convention, 1884) and 1982 United Nations Convention on the Law of the Sea(UNCLOS)(UN, 1982). Cable Convention was the result of 20 years industrial experience of the submarine telegraph cables at that time which was not only product of diplomacy but also the combined the reflection from fishery, ocean transportation industry, navy and electrical engineers from 27 countries. Author summarized some key articles from Cable Convention as they still the foundations to the STC regulations.
+1. The convention applies to the cable even it is outside of territorial water.
+2. Any intention or culpable negligence break or injure on a STC will be subject to the criminal penalities. But it is not applying to the case where the captain damaged the cable to save the ship or his passengers.
+3. If a cable was breaked or injured due to the a on laying or repairing cable, the owner of laying cable shall bear the cost of repairing.
+4. The vessel working on the laying or repairing submarine cable shall conform the signal with the few of preventing collisions at sea. Other vessels shall withdraw and keep the distance of one nautical mile, so not to interfere cable laying or repairing operation. 
+5. If a vessel can prove they have sacrificed an anchor, a net, or other fishing gear in order to avoid injury of a submarine cable. The owner of that submarine cable shall over these losses.
+6. This convention does not apply when a country is on the war.
+
+If Cable Convention only gives some basic guideline of vessel operation and STC damage compensation, the more recent UNCLOS provides a standard framework of responsibilities, supervision and regulations across the nations.(Carter, 2010, p.64) The UNCLOS divides marine area into 5 zones(NOAA, 2015), 3 primary zones can be identified in terms of STC jurisdiction.(Davenport, 2012) First zone includes internal water and territorial waters which marks any water inside of "baseline"(Westington and Slagel, 2002) or the sea within 12 nautical miles from the baseline. In this zone, the country has full sovereignty of the STC, laying or repairing cable need to be applied via diplomatic communication channels beforehand and espionage will be seem as the criminalization in this area.(Kraska, 2015)
+
+
+
+Former Secretary-General of the United Nations, Ban Ki-moon, in the Oceans and Law of the Sea Report, wrote “Functioning as the backbone of the international telecommunications system, submarine cables are a funda- mental component of the critical global infrastructure and play a direct role in sustainable industrialization; indirectly they contribute to all other areas recognized as important for sustainable development.”14
+
+
 
 #### Destruction and espionage
 
@@ -67,6 +81,37 @@ As the nature of STC provides the transnational communication, the STC usually c
 
 ## Research Design
     Research Methodology 
+
+    Applying the theory proposed by the Butter's law to estimate the bandwidth capacity of the submarine cable. 
+    Assess the risk of the demand supply gap in the global internet bandwidth under the Edholm's law of bandwidth
+    Build the world submarine cable map with Graph theory
+        Analysis of the submarine cable routing options under different use cases
+                Find the route with the shortest distance from starting point to the destination point. This is vital for some industries(eg High-frequency trading) as they have a higher standard on network latency.
+                From a financial and investment point of view, building a route with the minimized cost of production also needs to be considered.
+                Some routes can carry more data than others, in some use cases, people want to transfer a large amount of data via the submarine cable. Thus finding the route with the highest data transfer capacity is important.
+        Outline the importance of the landing point in the global submarine cable network
+            Some landing points are played as the data exchange centre(switcher) which gives higher value on the network. The network stability will severely be damaged if some failure happens in these places. 
+            Underlying the assumption of longer distance between two points, more likely the chance the communication failure will be. To what extent does this idea gives true on the submarine cable.
+            These locations can be measured by centrality and betweenness.
+            will adapt to a global submarine cable.
+            Efficiency values the effectiveness of the network from one location to another. A route with higher efficiency would make the 
+
+        To improve the robustness of the existing network topology, one of many solutions is building additional cables to overcome the failure. Analysis of the existing cable map and allocating the additional cable would reduce the vulnerabilities of the submarine cable.
+            Chinese post problem
+    Linear programming to design a cable with the given starting point and destination point under the limited cost. 
+        Sometimes building a new route also comes with financial considerations and engineering choices. If a new needs to be built, how much budget, designed capacity and cable length should be adopted to maximize the utility
+
+    Linear regression
+    Graph theory
+    Linear programming
+
+    Flow diagram
+    Hint: A high level overview of the methodology will be used 
+
+## Discussion
+    reflect back to literature 
+    interesting found in this study
+
 
 ### Data source
 1. The status, estimated finish time and length of the world STC(https://www.infrapedia.com/app/subsea-cable/humboldt-cable)
@@ -85,3 +130,26 @@ As the nature of STC provides the transnational communication, the STC usually c
 
 
 
+# Content for proposal
+
+## Give a summary of the analysis you plan to carry out
+Applying the theory proposed by the Butter's law to estimate the bandwidth capacity of the submarine cable. 
+Assess the risk of the demand supply gap in the global internet bandwidth under the Edholm's law of bandwidth
+        
+Analysis of the submarine cable routing options under different use cases
+    Find the route with the shortest distance from starting point to the destination point. This is vital for some industries(eg High-frequency trading) as they have a higher standard on network latency.
+    From a financial and investment point of view, building a route with the minimized cost of production also needs to be considered.
+    Some routes can carry more data than others, in some use cases, people want to transfer a large amount of data via the submarine cable. Thus finding the route with the highest data transfer capacity is important.
+
+Some landing points are played as the data exchange centre(switcher) which gives higher value on the network. The network stability will severely be damaged if some failure happens in these places. 
+
+Underlying the assumption of longer distance between two points, more likely the chance the communication failure will be. To what extent does this idea give true to the submarine cable.
+
+To improve the robustness of the existing network topology, one of many solutions is building additional cables to increase the redundancy when the failure occurs. Analysis of the existing cable map and allocating the additional cable would reduce the vulnerabilities of the submarine cable.
+
+Building a new cable also comes with financial considerations and engineering choices. If a new cable needs to be built, how much budget, designed capacity and cable length should be adopted to maximize the utility
+
+
+## Ethical
+In this research, author will stand a good behaviour of academic integrity, including referencing the source of the idea under the power of its knowledge license. 
+Author will ensure that all the data is properly cleaned and anonymized. Any data regards personal privacy, freedom and political censoring will carefully be considered, these considerations will be continuously addressed throughout the project lifecycle.
