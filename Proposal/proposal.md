@@ -76,13 +76,39 @@ If Cable Convention only gives some basic guidelines of vessel operation and STC
 3. Following that is the Exclusive Economic Zone (EEZ), which extend up to 200 nautical miles from its baseline. The nation is entitled to develop or harvest any natural resources and establish artificial islands here. (Louisiana, 2005) However, in article 79, UNCLOS recognizes the right of everyone to laying cables within the EEZ zone(UN, 1982). Therefore the ownership and the cable destruction responsibility still retains quite vague at this stage.
 4. Lastly, any water beyond EEZ and continental shelf are the High Seas, which the domestic law no longer applies. Anyone may lay or repair STC in the high sea, but the damage or injury on other STC still need to face judgement from the international court of justice. (Davenport, 2012)
 
-To improve the existing global law, (Rishi, 2017) proposed an assumption by assigning a lead agency to create protection zones where activities likely to damage the STC are prohibited there. Under such framework, a broader maritime planning and better spatial management need to be considered, with an increasing gap between the importance of the STC and the amount of legal protection on it. 
+To improve the existing global law, (Rishi, 2017) proposed an assumption by assigning a lead agency to create protection zones in the shallow water where activities likely to damage the STC are prohibited there. Under such framework, a broader maritime planning and better spatial management need to be considered, with an increasing gap between the importance of the STC and the amount of legal protection on it. 
 
 
 
 #### Destruction and espionage
 
+Considering the role of intelligence in strategic and tactical judgments during armed conflicts, disrupting the source of intelligence links to the outcome of the military operation. (Gentry, 2019) The first offensive cable cutting can be traced back to WWI, one of first orders after the declaration of war between Britain and Germany was to destroy Germany's STC in the English channel, the remaining cables were also under the surveillance of the code breaker team "Room 40" in London(Bruton, 2017) Resulting of the counterattack of _SMS Emden_(a german navy cruiser) destroyed a British cable landing station(CLS) at Tabuaeran. (Kennedy, 1971)
 
+The attack of STC includes but not limited to complete break, temporary disabled, interference and disruptions. These faults could cause delay even loss of data packages on a particular cable, even the global capacity overwhelming. (Gentry, 2019) However, the modern intentional attack still targets two types of vulnerabilities: physical and cyber.
+
+Physical attack
+Any approach threatening STC caused by the kinetic attack is included in this area. The target facilities could either be on the sea or the cable landing station on the land.
+        
+    At the sea
+Similar to any marine law on the high sea, the lack of information sharing and ability of monitorization on thousands of miles long STC dramatically lower the difficulty when malicious people are trying to attack cables. (Lindsay, 2015) In addition to that some specialized equipments(e.g. submarines and diving suits) provide more choices to cause the damage. In 2013 Egyptian Navy caught three hackers on a fishing boat near the city of Alexandria who was attempting to cut the SEA-ME-WE 4 cable by utilizing the diving suit, this cable connects from France to Singapore via 16 landing point, which is capable of carrying 2.3Tbit data per second. (Bump, 2013) 
+![](img/seamewe3.png)
+F2 seamewe3(source: submarinecablemap)
+
+Indeed cutting STC in high sea is a low risk, low investment with enormous achievement on economic sabotage or geopolitical purposes, which dragged the Russian attention to the cables in the transatlantic ocean, especially in North Atlantic.(Hicks et al., 2016) As one of the world's most crowded water, the STC in the north Atlantic is responsible for more than 90% of internet bandwidth between Europe and North America. (Inc, 2020) Recent evidence shows an increasing Russian naval activity was even greater than the Cold war level. (BBC, 2022)(Shalal, 2017) Russian have two main weapons threats on the STCs: submarines and surface spy vessels that can deploy remotely operated vehicles(ROV) or crewed submersibles. (Sutton, 2021a) For example, Losharik is a specialized nuclear submarine that can be carried by a larger 'mother' submarine over a long distance. Before its fire accident in 2019, the Losharik could perform topographical research and threaten STC within 1000m below the sea. (Roth, 2019) As for the surface vessel, Yantar is the most famous one, a 'special purpose intelligence collection' employed for the Russian Navy, however this title is also seen as a euphemism for a spy ship. Considering, Yantar's deployment and field surveying often near the STCs and occasionally turned off the AIS noted off the attentions from NATO countries. (Sutton, 2021b)
+
+Landing point
+In contrast with the invisibility of the STC under the water, the on-shore cable landing site(CLS) are more obverse target. As the terminal of the STC and the switching site between TTC and STC, CLS are often located in a town away from major cities. (CSRIC, 2016) For some budget reasons under the fact of the economy of scale, in many countries, multiple cables are sharing one landing site(Inc, 2020) and the landing site is often less benefitted by the military forces, for example, the CLS in Bude(a town in England) connects 8 STC but the closest tourist trail just 200m away from the main office. (Google map, 2022) This clustering could lead to a greater risk to national security when facing unlawful violence(e.g. terrorists). (Sechrist, 2012)
+
+Espionage
+Instead of breaking down the network, it is more subtle to utilize the data without being notified. There are three ways for espionage: inserting the backdoor on the cables or other hardware components, targeting the CLS, intercepting the cables at sea. (Morcos and Wall, 2021) Each is easier than the one after, the last one is believed to be the most challenging in engineering. (Chirgwin, 2014) suggests that placing secret devices under the condition of high water pressure and removing protected armour without damaging the high sensitive optic fibre with the water shock is less likely to happen under the current technology. On the one hand, the diver cannot withstand the water pressure 1000m below the sea. On the other hand, the manipulator arm equipped on submersible are agile enough to polish and splice the fibre under the dust-free environment. It is much easier(and legally) to tap the data on land than underwater, as the document released by the Washington Post(Timberg, 2013), a system called "Upstream" from NSA was designed to access communication on fibre cables without damaging the existing connection. As a result, the CLS in Britain and US are the ideal locations to deploy such system since UK is the entry point from the Atlantic and 80% of fibre data flows through the US.(Khazan, 2013)
+
+
+Digital cyber attack
+(Suganami, Carr and Humphreys, 2017) illustrates the concept of viewing data as critical infrastructure in part of the complex global internet supply chain, in the way that identifying the STC in the IoT environment rather than the cable itself. Hackers may remotely control the STC network management system to gain administrative rights, from that point they could identify physical/software vulnerabilities, disrupt the data traffic or create backdoors for further usage. (Morcos and Wall, 2021) It is really likely to occur according to (Sechrist, 2012), most of the firewalls and the secure protection software in most network management systems are not up to date.
+
+At the point of writing, there was no significant global internet failure direct or indirectly caused by STC in the past decades. Even we ignored the fact of the cable failure issued by nature hazards the global STC connectivity still remains fragile from either legal perspective or military interest even terrorist organizations from the perspective of ransoming for EU-US financial market stability.
+
+https://www.tandfonline.com/doi/full/10.1080/00963402.2016.1195636
 
 ## Research Design
     Research Methodology 
@@ -95,7 +121,7 @@ To improve the existing global law, (Rishi, 2017) proposed an assumption by assi
                 From a financial and investment point of view, building a route with the minimized cost of production also needs to be considered.
                 Some routes can carry more data than others, in some use cases, people want to transfer a large amount of data via the submarine cable. Thus finding the route with the highest data transfer capacity is important.
         Outline the importance of the landing point in the global submarine cable network
-            Some landing points are played as the data exchange centre(switcher) which gives higher value on the network. The network stability will severely be damaged if some failure happens in these places. 
+            Some landing points are played as the data exchange centre(eg. switch in computer network), which gives higher value on the network. The network stability will severely be damaged if some failure happens in these places.  
             Underlying the assumption of longer distance between two points, more likely the chance the communication failure will be. To what extent does this idea gives true on the submarine cable.
             These locations can be measured by centrality and betweenness.
             will adapt to a global submarine cable.
@@ -159,3 +185,7 @@ Building a new cable also comes with financial considerations and engineering ch
 In this research, author will stand a good behaviour of academic integrity, including referencing the source of the idea under the power of its knowledge license. 
 
 Author will respect the privacy of others by ensuring that all the data is appropriately cleaned and anonymized. Any data regards personal privacy, freedom and political censoring will carefully be considered. These considerations will be continuously addressed throughout the project lifecycle.
+
+
+## Abstract 
+https://link.springer.com/chapter/10.1007/978-3-030-44081-7_13
