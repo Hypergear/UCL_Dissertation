@@ -6,11 +6,10 @@ Which country or its subregions are more vulnerable to global internet connectiv
 
 ### Research objectives
 1. To review the functionality and importance of STC in the global internet services, justify its development in the past and future project
-2. Analysis of in-services STC market, including but not limited to its spatial distribution and services capacity
-3. Case study of the 2022 South pacific ocean Tonga Domestic Cable Extension(TDCE) breaks down. Determine the STC which are likely to be affected by the disruption events. 
-4. Analysis of the optimal route and identify the availability and cost of the alternative route by considering the internet traffic. 
-5. Potential new STC to improve the robustness of the internet services
-
+2. Analysis of in-services STC market, including but not limited to its spatial distribution and services capacity. 
+3. Analysis of the optimal route and identify the availability and cost of the alternative route by considering the internet traffic.
+4. Determine the on-sea STC or STC landing station which are likely to be affected by the disruption. 
+5. Case study of the 2022 South pacific ocean Tonga Domestic Cable Extension(TDCE) breaks down. Determine the potential new STC to improve the robustness of the internet services.
 
 
 
@@ -145,6 +144,7 @@ https://www.tandfonline.com/doi/full/10.1080/00963402.2016.1195636
 
 
 ### Data source
+Opensoure data
 1. The status, estimated finish time and length of the world STC(https://www.infrapedia.com/app/subsea-cable/humboldt-cable)
 2. World STC cable and landing point coordinate api(www.submarinecablemap.com/api/v3)
 3. STC planed budget, capacities, twisted pair(https://subtelforum.com)
