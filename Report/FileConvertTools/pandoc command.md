@@ -1,1 +1,1 @@
-pandoc --cite --bibliography=FileConvertTools/Dissertation.bib --csl=FileConvertTools/ucl-university-college-harvard.csl data.md -o data.docx
+pandoc --cite --bibliography=FileConvertTools/Dissertation.bib --csl=FileConvertTools/ucl-institute-of-education-harvard.csl Results.md -o result.docx
