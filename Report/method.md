@@ -52,7 +52,7 @@ Pseudocode of Chinese postman problem(https://algorithms.discrete.ma.tum.de/grap
 CPP indicates additional edge needed to form a Euler circuit graph, which can a walk can visits every edge exactly once by starting from any given node.(https://ieeexplore.ieee.org/abstract/document/1559930/) Thus the each node must a positive number of pairs of edges to provide the route for incoming and outgoing path. This provides a baseline of one STC redundancy for each landing station.
 
 Meanwhile, over-redundant is the by-product of the CPP which produced unnecessary edge to satisfy the CPP algorithm. Eventhough redundant path gives more robust network topology, it also brings extra cost for construction. Here author presents rich-club coefficient which describes the connectivity between the node with high degree centrality and author assumed that the connectivity of a higher degree node is naturally in a geographical advantage. (https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0119678&type=printable)
-
+\[\phi(k) = \frac{2 E_k}{N_k (N_k - 1)}\]
 
 
 

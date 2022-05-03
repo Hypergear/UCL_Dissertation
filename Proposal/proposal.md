@@ -189,3 +189,15 @@ Author will respect the privacy of others by ensuring that all the data is appro
 
 ## Abstract 
 https://link.springer.com/chapter/10.1007/978-3-030-44081-7_13
+
+
+## Description
+Description: To review the functionality and importance of STC in the global internet services. Identify the spatial vulnerable and estimate the consequences when failure happens
+Method: Applying the theory proposed by the Butter's law to estimate the bandwidth capacity of the submarine cable. Assess the risk of the demand supply gap in the global internet bandwidth under the Edholm's law of bandwidth. Analysis of the submarine cable routing options under different use cases
+Dataset:
+The status, estimated finish time and length of the world STC(https://www.infrapedia.com/app/subsea-cable/humboldt-cable)
+2. World STC cable and landing point coordinate api(www.submarinecablemap.com/api/v3)
+3. STC planed budget, capacities, twisted pair(https://subtelforum.com)
+4. International bandwidth, people's accessability of internet(https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx)
+5. Country name/code reference sheet(https://www.html-code-generator.com/mysql/country-name-table)
+6. STC engineering design data(https://www.submarinenetworks.com/en/africa)

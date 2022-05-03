@@ -33,10 +33,9 @@ The high level data aggregate the STC information into the country level, which 
 
 F1 High level data description
 
-The High level data description aggregates the data on a world map which gives an abstract view of the STC connection. Where each node is the representation of one country and there is at least one edge directly connect to it. The edge width is proportional to the count of STCs in charge of the end-to-end connection between two nodes.
+The High level data description aggregates the data into a world map which gives an abstract view of the STC connection. Where each node is the representation of one country and there is at least one edge directly connect to it. The edge width is proportional to the count of STCs in charge of the end-to-end connection between two nodes.
 
 
-T1 Top 10 the most popular edge
 
 The distribution of the STC connection between countries shows a high clustering in for domestic connection in South east Asia and Europe. This indicates the design of STC tend to build distributed network with more lossen landing points. This network has the edge density = 1/17, this ratio indicates the gap between actual edge and the max possible edge. 
 
