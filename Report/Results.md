@@ -96,10 +96,10 @@ Firstly, the countries with less than 3 redundant cables are considered as vulne
 To further investigate the STC robustness, Figure %&%&%& shows the spatial distribution of the STC vulnerable countries in a detailed result in Figure %&%&%&-1. The outer ring is the share of total bandwidth from each continents where as the inner ring gives the portion for every county. Continents with high percentage are Asia > Africa > North America > Oceania > South America > Europe. According to the figure, Although Asia is the most vulnerable continent as it gives the highest figure, it is made up by a handful countries with high bandwidth. In contrast to North America and Africa, a smaller sector from each country with a high number country count. As a case concerns the South America, which only consists 3 vulnerable countries: French Guiana, Guyana and Suriname with a evenly distributed bandwidth allocation. Each country deliver a summed weight capacity and cable count of 209.65Tb/s and 2.67cables/country. 
 
 ![](img/result_hbar_bandwidthRobust_country.png)
-###### _Figure. %&%&%N. _
+###### _Figure. %&%&%N. Scenarios of STC failures with most robust countries_
 
 ![](img/result_hbar_bandwidthRisk_country.png)
-###### _Figure. %&%&%N. _
+###### _Figure. %&%&%N. Scenarios of STC failures with lest robust countries_
 
 
 There are 94 countries assigned to STC robust group, as each country can withstand the three or more losses on STC. As the result of cable failure, the country may suffer from a reduction on the international bandwidth capacity. However, losing one or two cables is more likely to happen in the real world. Figure %&%&%& and %&%&%&-1 shows the resultant remaining bandwidth in percentage to retain the internet connectivity if the top three widest cable fails. 
@@ -137,16 +137,24 @@ Meanwhile, it is interesting to compare Table %^%^%^ and Figure %&%&%+1, while c
 Consider the nature of routing in a complex network, path from source node to destination can be selected from a vast options. Figure %&%&%&+1 shows an case of data communication between Yemen-India via STC. Although there are only six routes on the mao, there are many alternative routes with longer distance and bypassing more landing stations can be discovered. 
 
 ![result_his_landingCountryCount](img/result_map_path_YemenIndia.png)
-###### _Figure. %&%&%N. STC network in landing station level_
+###### _Figure. %&%&%N. STC route options from Yemen-India_
 
 To approach the network routing while selecting the best route a range of information need to be considered.(Baumann et al., 2007) In this case, author compare the routes from Bude(UK) to Shanghai(China) to identify the shortest path under different use case of the data transmission.
 
+![result_his_landingCountryCount](img/result_map_shortestPath_node.png)
+###### _Figure. %&%&%N. Low-level shortest-path route ($C^S$)_
+
+![result_his_landingCountryCount](img/result_map_shortestPath_latency.png)
+###### _Figure. %&%&%N. Low-level shortest-path route ($C^L$)_
+
+![result_his_landingCountryCount](img/result_map_shortestPath_capacity.png)
+###### _Figure. %&%&%N. Low-level shortest-path route ($C^B$)_
+
+![result_his_landingCountryCount](img/result_map_shortestPath_cost.png)
+###### _Figure. %&%&%N. Low-level shortest-path route ($C^C$)_
+
+As the Figure %&%&%&-3 to %&%&%& shown, data package choose different path based on their routing policy, in such instance $C^B$ choose a geographically longer route to exchange for a higher bandwidth capacity in comparison to other routes. Using Mumbai(India) as the routing transit station is the common practice in this study case, the importance of Mumbai in global STC connection will be presented latter. It is also interesting to see the a high overlap between the STC route and some of most important shipping trade route, take $C^S$ as an example, the route passes English Channel, Strait of Gibraltar, Suez canal, Bab al-Mandab Strait, Malacca Strait before it reaches its destination. It is risky for the cables by damaging from the anchors, as a large number of ships are right above the STC cables in the shipping route area. In addition to that cable density in these regions are usually higher than normal due to the narrow width alone the bank(205m for Suez canal) the damages from nature hazard or explosions may cause failure on multiple STCs.
 
 
-pre: Why we use shortest path? Yeman-India 
-distance
-cost
-budget
-bandwidth
-Overlap
-Description compare
+
+#### Physical failure on landing stations and undersea cable(Analysis from centralities)
