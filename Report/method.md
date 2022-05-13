@@ -31,7 +31,7 @@ As the weakness may either occur on the under water STC or the cable landing sta
 
 | Concept | Definition | Explain | Application |
 |---|---|---|---|
-| Degree centrality | The count number for edge directly connect to the node(https://www.sciencedirect.com/book/9780128016565/introduction-to-social-media-investigation) | A node with higher degree of edge acts as the more central node of a network | Degree centrality shows how many nodes can be directly reached by such node, even though this node might be far off on the boundary of this network |
+| Degree centrality | The count number for edge directly connect to the node(https://www.sciencedirect.com/book/9780128016565/introduction-to-social-media-investigation)(Sharma and Surolia, 2013) | A node with higher degree of edge acts as the more central node of a network | Degree centrality shows how many nodes can be directly reached by such node, even though this node might be far off on the boundary of this network |
 | Betweenness centrality | $\delta_s(E)=\sum_{(x,y)\in E} \frac{\sigma_{xy}(E)}{\sigma_{xy}} $(https://www.sciencedirect.com/book/9780128177563/analyzing-social-media-networks-with-nodexl) | The node plays as a hot spot role in many shortest paths | If all the information must pass through a node before reaching the destination, this node is the most important as the success of the communication is depend on it. But betweenness centrality is compute intensive large scale network |
 
 ### Network optimization

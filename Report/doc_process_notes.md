@@ -1,4 +1,4 @@
-%&%&%: index of figure
+%&%&%N: index of figure
 %&%&%&: index of figure(in paragraph)
 %&%&%&-1: previous index of figure(in paragraph)
 

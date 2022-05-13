@@ -1,7 +1,7 @@
 # Results
 
 
-## Country
+## Country \Ignore TOC
 * Country description
     * Map of first constructed cable
     * map of connection
@@ -15,7 +15,7 @@
     * STC vulnerable countries -> ring
 
 
-## Landing station
+## Landing station \Ignore TOC
 * Network Analysis
     * Policy-Based Routing -> routing options
         * pre: Why we use shortest path? Yeman-India 
@@ -153,8 +153,64 @@ To approach the network routing while selecting the best route a range of inform
 ![result_his_landingCountryCount](img/result_map_shortestPath_cost.png)
 ###### _Figure. %&%&%N. Low-level shortest-path route ($C^C$)_
 
-As the Figure %&%&%&-3 to %&%&%& shown, data package choose different path based on their routing policy, in such instance $C^B$ choose a geographically longer route to exchange for a higher bandwidth capacity in comparison to other routes. Using Mumbai(India) as the routing transit station is the common practice in this study case, the importance of Mumbai in global STC connection will be presented latter. It is also interesting to see the a high overlap between the STC route and some of most important shipping trade route, take $C^S$ as an example, the route passes English Channel, Strait of Gibraltar, Suez canal, Bab al-Mandab Strait, Malacca Strait before it reaches its destination. It is risky for the cables by damaging from the anchors, as a large number of ships are right above the STC cables in the shipping route area. In addition to that cable density in these regions are usually higher than normal due to the narrow width alone the bank(205m for Suez canal) the damages from nature hazard or explosions may cause failure on multiple STCs.
+As the Figure %&%&%&-3 to %&%&%& shown, data packages choose a different path based on their routing policy, in such instance, $C^B$ choose a geographically longer route to exchange for a higher bandwidth capacity in comparison to other routes. Using Mumbai(India) as the routing transit station is the common practice in this study case, the importance of Mumbai in global STC connection will be presented later. It is also interesting to see a high overlap between the STC route and some of the most important shipping trade routes, take $C^S$ as an example, the route passes English Channel, Strait of Gibraltar, Suez canal, Bab al-Mandab Strait, Malacca Strait before it reaches its destination. It is risky for the cables by damaging from the anchors, as a large number of ships are right above the STC cables in the shipping route area. In addition to that cable density in these regions are usually higher than normal due to the narrow width alone the bank(205m for Suez canal) the damage from natural hazard or explosions may cause failure on multiple STCs.
 
 
 
-#### Physical failure on landing stations and undersea cable(Analysis from centralities)
+#### Physical failure on landing stations and undersea cable(Analysis from centralities)(Degree centralities)
+
+
+To assess the importance of each individual landing station, the degree centrality provides a quantitative measure to classify the nodes based on their cohesiveness. Accordingly, the count of adjacent edges for each landing station will be assessed. Figure %&%&%&+1 captures the results of the degree centrality based on the landing stations. Mumbai(India) is the headmost with 160 connections and 0.43 degree centrality, followed by Shima(Japan) and Jeddah(Saudi Arabia), their high values can be explained by the geographic location as the transit countries. Japan is the gateway to connect Asia and Pacific ocean, similarly Saudi Arabia is located near the Suez Canal the shortest sea connection between Asia and Europe. Other side of the coin, the landing stations with the lowest can be found in the island countries or regions with only one cable connect to it eg. Aeng Batu Batu(Indonesia), Balluta Bay(Malta)
+
+![result_map_landingDegreeCentrality](img/result_map_landingDegreeCentrality.png)
+###### _Figure. %&%&%N. Low-level degree centrality map_
+
+The landing stations with a high degree centrality are more significant in the STC network locally, arguably, such design is not ideal in terms of risk assessment. The high degree centrality node consists of a intenser connection, the failure in the node itself cause by unexpected accidents (eg. power blackout, riots, terrorist attack) would cause more serious damage to the communication globally as the data routing can not proceed to the succeeding landing station. Besides the landing stations mentioned above, Singapore is also extremely valuable factor to the STC network but directly be observed from the map. Due to the limited area in Singapore, the two landing stations(Changi North and Tuas) are only 35km apart and the accident in one landing station is likely to implicate another.
+
+
+#### Betweenness centrality
+
+To account for breakage risk of cable topology in the sea, one important issue that needs to be considered is the geographical distribution of the cable laying on the most optimal path. The betweenness centrality returns the ratio which the node is sitting alone the shortest path between any two nodes, it can be seem as a comprehensive measure of the routing path selection in terms of the possibilities. With different focus of the data routing policies, Figure %&%&%&+1 visualize the distribution of the betweenness centrality individually while the Table %^%^% +1 statistically summarize the value.
+
+
+![reult_line_NodeBetweenness_Overview](img/reult_line_NodeBetweenness_Overview.png)
+###### _Figure. %&%&%N. Betweenness centrality Overview_
+
+![reult_line_NodeBetweenness_Zoomed](img/reult_line_NodeBetweenness_Zoomed.png)
+###### _Figure. %&%&%N. Betweenness centrality Zoomed_
+
+
+||Latency|Cost|Capacity|
+|---|---|---|---|
+|count|7229|7229|7229|
+|mean|0.015085355|0.016789418|0.019458784|
+|std|0.043984581|0.051353499|0.064554104|
+|min|0|0|0|
+|25%|0.000892193|0.000609267|0.000675097|
+|50%|0.002603469|0.002106302|0.002119711|
+|75%|0.008613072|0.009043768|0.007870817|
+|max|0.371998844|0.48875602|0.517119399|
+###### _Table. %^%^%N Summary of low-level betweenness centrality_
+
+The betweenness centrality distribution for each routing policy gives a power law distribution pattern in Figure %&%&%&-1 while Table %^%^%^ contains the relevant summary statistics. This is a bad design in the network science, where the route choice is heavily dependent on the handful nodes to maintain its performance. If the failure happens on the high betweenness centrality nodes failed, this design would result in a dramatically deteriorate the efficiency of the data flow when the network is switched to the sub-optimal route(eg. takes more time to the destination, narrowed bandwidth, higher usage cost). As the result of more detailed data pattern across different routing policies, Figure %&%&%& gives a zoomed view of fist 500 nodes from the Figure %&%&%&-1. It is evident that Bandwidth > Cost > Latency in first 300 nodes, which mostly explains the big difference in the mean value with little variation in 75% values from Table %^%^%^. 
+
+Therefore, a higher reduction on global STC bandwidth than the latency can be expected if any highlighted node/cable broken down in the Figure %&%&%&+1 to Figure %&%&%&+3. Furthermore, the latency betweenness centrality distribution gives a shallowed curve and lower standard deviation which speaks to a more distributed network with higher resilience than other routing policies.
+
+![result_map_betweenness_latency](img/result_map_betweenness_latency.png)
+###### _Figure. %&%&%N. Low-level Betweenness centrality map($C^L$)_
+
+![result_map_betweenness_capacity](img/result_map_betweenness_capacity.png)
+###### _Figure. %&%&%N. Betweenness centrality map($C^B$)_
+
+![result_map_betweenness_cost](img/result_map_betweenness_cost.png)
+###### _Figure. %&%&%N. Betweenness centrality map($C^C$)_
+
+Figure %&%&%&+1 aggregates the betweenness results above to provide an summary of the nodes distribution to the adjacent cables. 
+
+Latency focus: One cable to connect different continents
+Cost focus: Widely spread, 
+Bandwidth focus: One major cable, assist by many sub cables
+
+
+![result_map_betweenness_aggregated](img/result_map_betweenness_aggregated.png)
+###### _Figure. %&%&%N. Aggregated betweenness centrality map_

@@ -1,4 +1,4 @@
-Abstract
+## Abstract
 With the rise of global internet connectivity and the increasing availability of inexpensive computer devices, submarine telecommunication cable(STC) becomes the backbone infrastructure to carry the data traffic in the international information transmission. However, STC is extremely vulnerable to damage such as natural disasters and terrorist attacks. If the damage is taken, the repairing may need a few months before the finish and this would directly cause the bandwidth detrition or lagging of the internet services. To understand this question, this article models the STC network under a topological structure the network to identify the dangerous area.
 
 todo: What are the findings

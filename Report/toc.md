@@ -25,5 +25,12 @@
     * Network Analysis -> case study in result
     * Network optimization -> case study in result
 
-
+* Results ~ todo
+* Discussion ~ todo
+* Conclusion ~ todo
+* Reference ~ processing
+* Appendix
+    * SQL
+    * Code
+    
 

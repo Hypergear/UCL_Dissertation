@@ -29,15 +29,11 @@ Since the scope of this research focus on the submarine telecommunication cable,
 陆地光缆, 忽略军用, 私人(暗光纤), 海上钻机油田
 
 ### High level data description
-The high level data aggregate the STC information into the country level, which includes the mainland; dependent areas and overseas territories.(https://www.nationsonline.org/oneworld/territories.htm) This makes some small oversea island be in part of its geographic territories, for example Guam is an unincorporated territory of the US in western pacific Ocean(https://web.archive.org/web/20110721034923/http://www.doi.gov/oia/Islandpages/political_types.htm) but connects 7 out of 20 STCs between East Asia and West America(https://www.submarinecablemap.com/). This leaves 396 edges connections across 173 countries.
-
-F1 High level data description
-
-The High level data description aggregates the data into a world map which gives an abstract view of the STC connection. Where each node is the representation of one country and there is at least one edge directly connect to it. The edge width is proportional to the count of STCs in charge of the end-to-end connection between two nodes.
 
 
+The High level data description aggregates the data into based their belonging countries which gives an abstract view of the STC connection. 
 
-The distribution of the STC connection between countries shows a high clustering in for domestic connection in South east Asia and Europe. This indicates the design of STC tend to build distributed network with more lossen landing points. This network has the edge density = 1/17, this ratio indicates the gap between actual edge and the max possible edge. 
+ 
 
 More vulunerable, 新加坡,印度尼西亚, 马来西亚-> 海啸, 
 国家层的数据
@@ -45,7 +41,7 @@ More vulunerable, 新加坡,印度尼西亚, 马来西亚-> 海啸,
 
 ### Low level data description
 
-Low level data helps to explain the STC connection in a more concreat information such as STC landing cities and servies status, a costal country may consists one or many landing cities, which dramatically increased the number of nodes and edges to be considered. This level also gives most detailed entries of their construction in the network of connection, as each edge is label to a unique color to identify their route path under the sea.  
+Low level data helps to explain the STC connection in a more concreat information such as STC landing cities and servies status, a costal country may consists one or many landing cities, which dramatically increased the number of nodes and edges to be considered. This level also gives most detailed entries of their construction in the network of connection, as each edge is label to a unique color to identify their route path under the sea.
 
 Source: www.submarinecablemap.com
 
