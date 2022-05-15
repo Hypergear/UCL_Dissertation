@@ -10,7 +10,8 @@
 | Date | Documents prepared prior to meeting | Topics discussed in the meeting | Items to complete before next meeting | Date of next meeting |
 | --- | --- | --- | --- | --- |
 | 28/04 | Draft introduction Draft literature review Dataset to be used Proposed method | Meeting log format Research scope Aims of the literature review Limitation of the research, difference with relative research | Refine research question and introduction Commence the analysis exploration | TBD | 
-| 12/05 | Very early draft of the report, up to result chapter | Research aims, Key points from the mark scheme, Interesting points from the search result, Good examples of the discussion chapter | First draft the of report | TBD | 
+| 12/05 | the question of framing research; the distinction between the research question of a Master’s dissertation, a journal paper, a class paper, etc; an in-depth overview of the marking rubric; and some preliminary discussion about the kinds of network analysis you’ve been doing and what that means for your findings.
+ | First draft the of report | TBD | 
 
 ## Research log
 | Date | Task | Challenges  | Solutions |
