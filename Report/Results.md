@@ -95,10 +95,11 @@ Firstly, the countries with less than 3 redundant cables are considered as vulne
 
 To further investigate the STC robustness, Figure %&%&%& shows the spatial distribution of the STC vulnerable countries in a detailed result in Figure %&%&%&-1. The outer ring is the share of total bandwidth from each continents where as the inner ring gives the portion for every county. Continents with high percentage are Asia > Africa > North America > Oceania > South America > Europe. According to the figure, Although Asia is the most vulnerable continent as it gives the highest figure, it is made up by a handful countries with high bandwidth. In contrast to North America and Africa, a smaller sector from each country with a high number country count. As a case concerns the South America, which only consists 3 vulnerable countries: French Guiana, Guyana and Suriname with a evenly distributed bandwidth allocation. Each country deliver a summed weight capacity and cable count of 209.65Tb/s and 2.67cables/country. 
 
-![](img/result_hbar_bandwidthRobust_country.png)
+![result_hbar_bandwidthRobust_country](img/result_hbar_bandwidthRobust_country.png)
 ###### _Figure. %&%&%N. Scenarios of STC failures with most robust countries_
 
-![](img/result_hbar_bandwidthRisk_country.png)
+
+![result_hbar_bandwidthRisk_country](img/result_hbar_bandwidthRisk_country.png)
 ###### _Figure. %&%&%N. Scenarios of STC failures with lest robust countries_
 
 
@@ -207,14 +208,44 @@ Therefore, a higher reduction in global STC bandwidth than the latency can be ex
 
 Figure %&%&%&+1 aggregates the betweenness results above to provide an summary of the nodes distribution to the adjacent cables. Of the three classes of routing policies, each group is showing different focus of patterns. This is important to illustrate the role of betweenness centralities by different types of distance through out global STC would help to identifying the key nodes alone the shortest path.
 
-Out of 3 routing policies, it is important to know to consider where the nodes are. Firstly the latency betweenness measure of $C^L$ appears to maintain one highlighted connection between two geographic adjacent continents, especially in the route connecting from Singapore(Asia) to NewYork(North America) via the UK(Europe). This result could be motivated by the demand on the financial sector(eg Stock exchange), as the data synchronization between financial data centers usually consists the feature of high requirement on realtime transmission. Secondary, the bandwidth betweenness shows a widespread distributed this means the, the remaining bandwidth capacity can be carried with STC still retains quite robust even the disconnection occurs on the most important node. Finally, the cost betweenness highlights the necessary nodes required to achieve the minimum cost, showcase route in south africa is 
-
-Of the three classes of countries, the group most clearly benefiting from nearby CDN replicas is the Landlocked group, with an average SCN path hit ratio of 21.95% (as a point of reference, the average SCN path hit ratio for its non CDN- hosted content is 8.48%).
-
-Latency focus: One cable to connect different continents
-Cost focus: Widely spread, 
-Bandwidth focus: One major cable, assist by many sub cables
+Out of 3 routing policies, it is important to know to consider where the nodes are. Firstly the latency betweenness measure of $C^L$ appears to maintain one highlighted connection between two geographic adjacent continents, especially in the route connecting from Singapore(Asia) to NewYork(North America) via the UK(Europe). This result could be motivated by the demand on the financial sector(eg Stock exchange), as the data synchronization between financial data centers usually consists the feature of high requirement on realtime transmission. Secondary, the bandwidth betweenness shows a widespread distributed, this offers many benefit from reliability to data accessability. This distributed architecture does not pose pose critical bandwidth shortage problem to the remaining servers even the malfunction occurs on the most important node(eg India). As some of the web-services services can hosted on the existing cloud or CDN deployments, the widespread wide bandwidth cable most clearly benefiting from the host resources(eg. trending youtube videos) on the nearby CDN service stations, in case of potential STC failure. Finally, the cost betweenness highlights the necessary nodes required to achieve the minimum cost, showcase route from singapore to Brazil via the India, UAE and South africa is high lighted, while this route avoids the most cable congested lane in Mediterranean Sea with a open connection in south africa. It is interesting to find out the overlap between $C^B$ and $C^C$ in East africa where the cables(eg 2Africa) are more advanced in budget controlling and bandwidth capacity.
 
 
 ![result_map_betweenness_aggregated](img/result_map_betweenness_aggregated.png)
 ###### _Figure. %&%&%N. Aggregated betweenness centrality map_
+
+Figure %&%&%& aggregates the previous betweenness analysis into one visualization to provide a snapshot of top 5% most important route around the world. A high clustering in south east asia, MENA(Middle East and North Africa) and Celtic Sea, this finding could be utilized to simulate the consequence of the cable accident in those regions by estimating the impact on overall network functionality reduction.
+
+### Network optimization
+
+The Tonga volcano eruption on 20 Dec 2021 was believed as the largest volcanic eruption since the 1883 on record, which subsequently caused the destruction on its only STC on 15th Jan.(https://edition.cnn.com/2022/05/12/asia/tonga-eruption-biggest-in-more-a-century-scn/index.html) 
+After 38 days of lack of full access to internet, repair ship Reliance replaced 92km of STC between Tonga to Fiji.(Tomé, 2022) During that time the communication with outside world was backed up with satellite telecommunication, but the traffic shrank around 99%.
+![tonga_traffic](img/tonga_traffic.png)
+###### _Figure. %&%&%N. Tonga internet traffic during the STC failure_(https://radar.cloudflare.com/)
+
+#### Redundancy analysis
+
+To overcome the fault scenario in tonga in the future, building redundant cables as the back up broadband services compensate the impact caused by the lost the connectivity on primary cable. This acquires at least two cables connecting to the same landing station, regardless of whether they are STC or TTC. On this basis we adopts the Chinese post man algorithm to this problem, from its theory, the edges can be divided into two categories: in-degree and out-degree where each node consists at least one pair of the degrees. Out of many solutions, we found an optimal solution by minimizing the total length of the additional route planed to be built.
+
+![result_map_OptTonga_route](img/result_map_OptTonga_route.png)
+###### _Figure. %&%&%N. Planned STC optimization for Tonga_
+
+This modification on the STCs would make the network more efficient by allowing more nodes to participate the information transformation, the average degree centrality was increased from 0.0588 to 0.0660 locally in this regions. On another positive note, network is also more distributed by reducing the dependency on essential communication between the the high degree nodes. Based on the analysis in Figure %&%&%&, a weaker rich-club effect in the optimized design is presented as the degree different between the nodes is small than before, the average rich-club coefficient is now 0.2660 compared with 0.2741 in before.
+
+![result_line_OptTonga_RichCompare](img/result_line_OptTonga_RichCompare.png)
+###### _Figure. %&%&%N. Rich-club analysis in Tonga_
+
+
+#### Financial cost
+
+Any modification on the existing system could bring extra cost, especially when laying the additional cables for extra redundancy. Here we will compare and contrast the cost of deploying additional STC and use of start link as the alternative technology in Tonga area. 
+
+While analyzing the cost of the existing cables in the nearly water against with their physical length, Adjusted R-squared 0.963 of their variance in the dependent variable suggests a good fit to the budget estimation of the planned cables. The two cables from Tonga to Niue and American Samoa are estimated of the length 618.18KM and 517.63KM with the cost 13.29 and 10.54 Million USD separately.
+
+![result_map_OptTonga_cost](img/result_map_OptTonga_cost.png)
+###### _Figure. %&%&%N. Estimate cost to deploy redundant cables_
+
+
+
+![result_line_OptTonga_costCompare](img/result_line_OptTonga_costCompare.png)
+###### _Figure. %&%&%N. Tonga internet traffic during the STC failure_(https://radar.cloudflare.com/)
