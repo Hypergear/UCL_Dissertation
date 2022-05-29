@@ -8,7 +8,7 @@ In contrast, network science focus on the observation of real-world representati
 
 ### Basic network in graph
 
-![123](img/computer_routing_graph.png)
+![computer_routing_graph](img/computer_routing_graph.png)
 Source: (http://networksciencebook.com/)
 
 The construction of the internet routing network system may be valid from an undirected graph as the communication cable provides upload/download functionality simultaneously from both ends.(https://ieeexplore.ieee.org/abstract/document/1208688/) The system's components in such a graph is often called nodes and each direct interaction between two nodes is called edge. 
