@@ -1,6 +1,5 @@
 # Results
 
-
 ## Country \Ignore TOC
 * Country description
     * Map of first constructed cable
@@ -59,7 +58,7 @@ As a marine based infrastructure, STC is not suitable and applicable to be deplo
 ### High(country) level STC
 
 #### Distribution of STC between countries
-The high level data aggregate the STC information into the country level, which includes the mainland; dependent areas and overseas territories.(Nationsonline, 2022) This makes some small oversea island be in part of its geographic territories, for example Guam is an unincorporated territory of the US in western pacific Ocean(US. DOI, 2016) but it is responsible for 7 out of 20 STCs connection between East Asia and West America(TeleGeography, 2022). This leaves 396 edges connections across 183 countries.
+The high level data aggregate the STC information into the country level, which includes the mainland; dependent areas and overseas territories.(@nationsonline_2022_countries) This makes some small oversea island be in part of its geographic territories, for example Guam is an unincorporated territory of the US in western pacific Ocean(@usdoi_2016_definitions) but it is responsible for 7 out of 20 STCs connection between East Asia and West America(@telegeography_2022_submarine). This leaves 396 edges connections across 183 countries.
 
 ![result_map_countryFirstCable](img/result_map_countryFirstCable.png)
 ###### _Figure. %&%&%N. Country level connection_
@@ -75,14 +74,14 @@ Combined to that, the distribution of this result shows a high clustering of the
 
 Despite the development of the local cashing services(eg. CDN) over last two decades, increased investments in STC by the tech giants and continued construction of data centers around the globe, the demand on the international bandwidth seem to increase in the next few year according to the estimation and statistics from ITU(ITU, 2022). 
 
-![result_hbar_capacityGap](/img/result_hbar_capacityGap.png)
+![result_hbar_capacityGap](img/result_hbar_capacityGap.png)
 ###### _Figure. %&%&%N. Country most vulnerable to international bandwidth shortage_
 
 Figure %&%&%& shows the top 10 countries who have the risk to overcome the gap between the amount of international bandwidth provided by the STC and increasing internet services demand from its people even the new STCs are finishing the deployment as they were planed. Eventhough Poland, Romania, Croatia are most vulnerable to this situation, in reality as members of the Europe union the actual damage is less than the paper result as the bandwidth deficit can be covered by TTC from adjacent countries. In contrast, countries with less political stability(eg. Syria) and geographically located in an island(eg. Vanuatu) will suffer more on this, especially during the internet rush hours. 
 
 #### STC redundancy analysis
 
-With over 100 yearly accident from human unintentional incident(eg. fishing dredge and anchoring) to nature hazard combined with the potential hostile attack for military purposes. (Mauldin, 2017) It is not hard to imagine the scenario where a country's internet services are disrupted by multiple cables losses at the same time. To simulate the consequences of such disruption in the worst case scenario, the strength of the internet is examined by assessing the remaining bandwidth after removing the cables with highest bandwidth. 
+With over 100 yearly accident from human unintentional incident(eg. fishing dredge and anchoring) to nature hazard combined with the potential hostile attack for military purposes. (@mauldin_2017_cable) It is not hard to imagine the scenario where a country's internet services are disrupted by multiple cables losses at the same time. To simulate the consequences of such disruption in the worst case scenario, the strength of the internet is examined by assessing the remaining bandwidth after removing the cables with highest bandwidth. 
 
 
 ![result_waffle_countryCompare](img/result_waffle_countryCompare.png)
@@ -105,7 +104,7 @@ To further investigate the STC robustness, Figure %&%&%& shows the spatial distr
 
 There are 94 countries assigned to STC robust group, as each country can withstand the three or more losses on STC. As the result of cable failure, the country may suffer from a reduction on the international bandwidth capacity. However, losing one or two cables is more likely to happen in the real world. Figure %&%&%& and %&%&%&-1 shows the resultant remaining bandwidth in percentage to retain the internet connectivity if the top three widest cable fails. 
 
-The USA is the leading in the remaining bandwidth after the multiple cable failure, thanks to its excellent distribution and availability of redundant cables. With cable edge $K_{usa}=29$ and estimated potential bandwidth of 1479.76Tb/s. After the connection loss of its widest cable Dunant, a reduction of 250Tb/s(16.89%) in the overall US bandwidth can be expected. Even in the worst case scenario in this study where top3 cables are failing at the same time, USA would still obtains remaining international bandwidth capacity of 642.43Tb/s. This number is still higher than the actual demand.(41.16Tb/s in 2022)(ITU, 2022) Besides than that, the continental USA is geographically adjacent to Canada and Mexico which can provide additional TTC bandwidth capacity if necessary.
+The USA is the leading in the remaining bandwidth after the multiple cable failure, thanks to its excellent distribution and availability of redundant cables. With cable edge $K_{usa}=29$ and estimated potential bandwidth of 1479.76Tb/s. After the connection loss of its widest cable Dunant, a reduction of 250Tb/s(16.89%) in the overall US bandwidth can be expected. Even in the worst case scenario in this study where top3 cables are failing at the same time, USA would still obtains remaining international bandwidth capacity of 642.43Tb/s. This number is still higher than the actual demand.(41.16Tb/s in 2022)(@itu_2022_country) Besides than that, the continental USA is geographically adjacent to Canada and Mexico which can provide additional TTC bandwidth capacity if necessary.
 
 In contrast the cable design in Isle of Man is fairly unbalanced as the result of disconnect in its widest cable Havhingsten/CeltixConnect-2, it would expect loss 98.66% of bandwidth, with remaining 1.42Tb/s potential capacity from the rest of 3 cables.
 
@@ -140,7 +139,7 @@ Consider the nature of routing in a complex network, path from source node to de
 ![result_his_landingCountryCount](img/result_map_path_YemenIndia.png)
 ###### _Figure. %&%&%N. STC route options from Yemen-India_
 
-To approach the network routing while selecting the best route a range of information need to be considered.(Baumann et al., 2007) In this case, author compare the routes from Bude(UK) to Shanghai(China) to identify the shortest path under different use case of the data transmission.
+To approach the network routing while selecting the best route a range of information need to be considered.(@baumann_2007_a) In this case, author compare the routes from Bude(UK) to Shanghai(China) to identify the shortest path under different use case of the data transmission.
 
 ![result_his_landingCountryCount](img/result_map_shortestPath_node.png)
 ###### _Figure. %&%&%N. Low-level shortest-path route ($C^S$)_
@@ -219,9 +218,9 @@ Figure %&%&%& aggregates the previous betweenness analysis into one visualizatio
 ### Network optimization
 
 The Tonga volcano eruption on 20 Dec 2021 was believed as the largest volcanic eruption since the 1883 on record, which subsequently caused the destruction on its only STC on 15th Jan.(https://edition.cnn.com/2022/05/12/asia/tonga-eruption-biggest-in-more-a-century-scn/index.html) 
-After 38 days of lack of full access to internet, repair ship Reliance replaced 92km of STC between Tonga to Fiji.(Tomé, 2022) During that time the communication with outside world was backed up with satellite telecommunication, but the traffic shrank around 99%.
+After 38 days of lack of full access to internet, repair ship Reliance replaced 92km of STC between Tonga to Fiji.(@tom_2022_internet) During that time the communication with outside world was backed up with satellite telecommunication, but the traffic shrank around 99%.
 ![tonga_traffic](img/tonga_traffic.png)
-###### _Figure. %&%&%N. Tonga internet traffic during the STC failure_(https://radar.cloudflare.com/)
+###### _Figure. %&%&%N. Tonga internet traffic during the STC failure_(@cloudflare_2022_internet)
 
 #### Redundancy analysis
 
@@ -240,12 +239,12 @@ This modification on the STCs would make the network more efficient by allowing 
 
 Any modification on the existing system could bring extra cost, especially when laying the additional cables for extra redundancy. Here we will compare and contrast the cost of deploying additional STC and use of start link as the alternative technology in Tonga area. 
 
-While analyzing the cost of the existing cables in the nearly water against with their physical length, Adjusted R-squared 0.963 of their variance in the dependent variable suggests a good fit to the budget estimation of the planned cables. The two cables from Tonga to Niue and American Samoa are estimated of the length 618.18KM and 517.63KM with the cost 13.29 and 10.54 Million USD separately.
+While analyzing the cost of the existing cables in the nearly water against with their physical length, adjusted R-squared 0.963 of their variance in the dependent variable suggests a good fit to the budget estimation of the planned cables. The two cables from Tonga to Niue and American Samoa are estimated of the length 618.18KM and 517.63KM with the cost \$13.29 and \$10.54 Million USD separately. As the by product, these cables will directly benefit people in Tonga to Niue and American Samoa also provides a sub-optimal route for nearby countries such as French Polynesia and Cook Islands.
 
 ![result_map_OptTonga_cost](img/result_map_OptTonga_cost.png)
 ###### _Figure. %&%&%N. Estimate cost to deploy redundant cables_
 
-
+The STC is designed with 25 years of industrial average service life, a basic assumption for the device life expectancy is based on that. Star link is the most common customer level satellite internet services, as alternative technology to the STC. There are two parts of the cost to use the start link(@starlink_2022_starlink): hardware(\$599) and services(\$110/Mon), a functional working makes \$112 monthly capita cost can be expected in next 25 years. Meanwhile, the STC is sharing the same infrastructure cost regardless of the number of the internet users, the capita cost is inversely proportional to the number of subscribed user to the network. As the Figure %&%&%& shows, by the estimate from ITU in 2016 there are 55612 internet users in Tonga, Niue and American Samoa, it is cheaper to invest money in STC if more than 1862 units(individuals or companies) are willing to pay for the most standard data package in next 25 years. 
 
 ![result_line_OptTonga_costCompare](img/result_line_OptTonga_costCompare.png)
-###### _Figure. %&%&%N. Tonga internet traffic during the STC failure_(https://radar.cloudflare.com/)
+###### _Figure. %&%&%N. Cost of new STC compare with alternative technology_
