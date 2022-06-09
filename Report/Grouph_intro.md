@@ -1,4 +1,4 @@
-## Graph theory and Network science
+### Graph theory and Network science
 
 Network science and graph are two highly overlapped fields to model and mathematically describe a network, even though two things can be used interchangeably to illustrate a similar idea: the objects(nodes, vertices) are associated by a logical connection(links, edges).(Albert-Lã¡Szlã3 Barabã¡Si and Mã¡Rton Pã3sfai, 2016) But the nuanced differences between the two statements still exists which can not be interpreted with one. 
 
@@ -6,7 +6,7 @@ Graph theory is a branch of discrete mathematics that provides the fundamental t
 
 In contrast, network science focus on the observation of real-world representation of the connection to understand the structure and quantify dynamics of the complex system between the objects.(Friedrich, 2019) For example, society is the linkage of individuals with family, friendships, classmates and coworkers.
 
-### Basic network in graph
+#### Internet routing in graph theory
 
 ![computer_routing_graph](img/computer_routing_graph.png)
 ###### _Figure. %&%&%N. Computer routing in graph theory(Source: @albertlaszlabarabasi_2016_network)
@@ -21,8 +21,8 @@ $E_{xy}\rightarrow{((x,y\subseteq V_i) \cap (x\neq y))}$
 We denote $K_i$ as the number of edges directly connect to the node $V_i$ in the network, this number is also known as degree. In an undirected network system, the total number of edge $L$ can be calculated by the following equation.
 $L=\frac{1}{2}\sum_{i = 1}^N K_i$
 
-### Attributes in the STC graph
-To review the global STCs from multiple aspects of dynamic correlations and bringing quantitative constructions needed for the analysis. The network science and graph theory provides the methods to take into consideration of the quantitative relationship by inserting the numerical values into the nodes and edges within the STC network. The network’s nodes and edges attribute definition are presented in table
+#### Attributes in the STC graph
+To review the global STCs from multiple aspects of dynamic correlations and bringing quantitative constructions needed for the analysis. The network science and graph theory provides the methods to take into consideration of the quantitative relationship by inserting the numerical values into the nodes and edges within the STC network. The network’s nodes and edges attribute definition are presented in Table %^%^%+1
 
 | Category | Attributes | Relevance |
 |---|---|---|
@@ -39,7 +39,7 @@ To review the global STCs from multiple aspects of dynamic correlations and brin
 ###### Table. %^%^%N. Network's attribute
 
 
-### Keywords/jargons in the network science
+#### Keywords/jargons in the network science
 
 Under such quantitative network, a range of network analysis toolbox offers the analysis approach to measure the topology and properties of the network from multi-dimensional groups of content. 
 

@@ -27,12 +27,13 @@ The path between the origin and destination in a network could either be manuall
 ### Network Analysis
 To analysis such complex network of the combination between large number of nodes and edges, the analysis boundary is not only the physical connection of STC also an abstract quantitative network to deal with the communication between the landing stations(node) via the STCs(edge). 
 
-As the weakness may either occur on the under water STC or the cable landing stations, those locations in the global STC network with the high value of centrality are gains more interest than others. The node with high centrality referred to the how the importance of an actor plays in a topological network structure.(@hoffman_2021_methods) There are two centrality measurments are employed in this investgation: Degree centrality, betweenness centrality - The detailed strength and weakness can be found in Table M2.
+As the weakness may either occur on the under water STC or the cable landing stations, those locations in the global STC network with the high value of centrality are gains more interest than others. The node with high centrality referred to the how the importance of an actor plays in a topological network structure.(@hoffman_2021_methods) There are two centrality measurments are employed in this investgation: Degree centrality, betweenness centrality - The detailed strength and weakness can be found in Table %^%^%+1.
 
 | Concept | Definition | Explain | Application |
 |---|---|---|---|
 | Degree centrality | The count number for edge directly connect to the node(Sharma and Surolia, 2013) | A node with higher degree of edge acts as the more central node of a network | Degree centrality shows how many nodes can be directly reached by such node, even though this node might be far off on the boundary of this network |
 | Betweenness centrality | $\delta_s(E)=\sum_{(x,y)\in E} \frac{\sigma_{xy}(E)}{\sigma_{xy}} $(Hansen, Shneiderman and Himelboim, 2019) | The node plays as a hot spot role in many shortest paths | If all the information must pass through a node before reaching the destination, this node is the most important as the success of the communication is depend on it. But betweenness centrality is compute intensive large scale network |
+###### Table. %^%^%N. Network analysis compare
 
 ### Network optimization
 
