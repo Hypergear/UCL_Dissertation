@@ -1,11 +1,11 @@
 * Abstract
-* Introduction ~1k
-* Literature Review ~ 3k
+* Introduction
+* Literature Review
     * technical factors that lead to the STC failure
     * Regulations and international law applied to STC
     * Destruction and espionage
-* Data ~ 1k
-    * Dataset availability
+* Data
+    * Dataset gathering
         * Dataset gathering
             * Submarine cable dataset
             * Global bandwidth dataset
@@ -14,23 +14,31 @@
     * Data category
         * High level data description -> country level
         * Low level data description -> city level 
-* Method ~ 2k
-    * Key concepts
-        * Graph theory and Network science
-        * Basic network in graph
+* Method
+    * Graph theory and Network science
+        * Internet routing in graph theory
         * Attributes in the STC graph
-        * Keywords/jargons in the network science
+        * Keywords/philosophy in the network science
     * Bandwidth shortage -> abstract view of the global bandwidth consumption
     * Policy-Based Routing -> measures in different aspects
     * Network Analysis -> case study in result
     * Network optimization -> case study in result
 
-* Results ~ todo
-* Discussion ~ todo
-* Conclusion ~ todo
-* Reference ~ processing
+* Results
+    * Study scope
+    * High(country) level STC
+        * Distribution of STC between countries
+        * Bandwidth shortage due to the nature growth
+        * STC redundancy analysis
+    * Low(landing station) level STC
+        * Policy-Based Routing
+        * Degree centralities
+        * Betweenness centrality
+    * Network optimization
+        * Redundancy analysis
+        * Financial cost
+* Discussion
+* Conclusion
+* Reference
 * Appendix
-    * SQL
-    * Code
     
-
