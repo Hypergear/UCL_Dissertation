@@ -8,10 +8,10 @@ In contrast, network science focus on the observation of real-world representati
 
 #### Internet routing in graph theory
 
-![computer_routing_graph](img/computer_routing_graph.png)
+![computer_routing_graph](img/grouph_img_computerRouting.png)
 ###### _Figure. %&%&%N. Computer routing in graph theory(Source: @albertlaszlabarabasi_2016_network)
 
-The construction of the internet routing network system may be valid from an undirected graph as the internet cables provide synchronous communication allowing data upload/download happens simultaneously from both ends.(@gkantsidis_2003_spectral) The system's components in such graph is often called nodes and each direct interaction between two nodes is called edge. 
+The construction of the internet routing network system is valid for an undirected graph as the internet cables provide synchronous communication allowing data upload/download happens simultaneously from both ends.(@gkantsidis_2003_spectral) The system's components in such graph is often called nodes and each direct interaction between two nodes is called edge. 
 
 In a network system, we label a node with $V_i$, where $i$ is the index of the components in the network system, which is labeled as $ i = 1,2,3...n $.
 

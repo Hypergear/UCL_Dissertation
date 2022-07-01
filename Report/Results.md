@@ -68,11 +68,11 @@ The Figure %&%&%& presents the visualization of the country level STC connection
 ![result_his_countryCount](img/result_his_countryDegreeCount.png)
 ###### _Figure. %&%&%. Country degree in histogram_
 
-Combined to that, the distribution of this result shows a high clustering of the domestic connection in south east asia and europe. As the majority of the countries are having less than 25 direct STC connection to other states, in this case the design of STC tend to build a loosen and distributed network in a small area. Countries such as $K_{Indonesia}=224$, $K_{United States}=216$, $K_{United States}=118$ are way outnumbered than rest of 180 countries accounting 26% of global landing station count. Such, these countries are tend to have more redundancy cables than the rest of the world. This network has the edge density = 1/17, this ratio indicates the gap between actual edge and the max possible edge.
+Combined to that, the distribution of Figure %&%&%& shows a high clustering of the domestic connection in South east asia and Europe. As the majority of the countries are having less than 25 direct STC connection to other states, in this case the design of STC tend to build a loosen and distributed network in a small area. Countries such as $K_{Indonesia}=224$, $K_{United States}=216$, $K_{United States}=118$ are way outnumbered than rest of 180 countries accounting 26% of global landing station count. Such, these countries are tend to have more redundancy cables than the rest of the world. This network has the edge density = 1/17, this ratio indicates the gap between actual edge and the max possible edge.
 
 #### Bandwidth shortage due to the nature growth
 
-Despite the development of the local cashing services(eg. CDN) over last two decades, increased investments in STC by the tech giants and continued construction of data centers around the globe, the demand on the international bandwidth seem to increase in the next few year according to the estimation and statistics from ITU(ITU, 2022). 
+Despite the development of the local cashing services(eg. CDN) over last two decades, increased investments in STC by the tech giants and continued construction of data centers around the globe, the demand on the international bandwidth seem to increase in the next few year according to the estimation and statistics from ITU(@itu_2022_country). 
 
 ![result_hbar_capacityGap](img/result_hbar_capacityGap.png)
 ###### _Figure. %&%&%N. Country most vulnerable to international bandwidth shortage_
@@ -92,7 +92,7 @@ Firstly, the countries with less than 3 redundant cables are considered as vulne
 ![result_ring_countryVulnerable](img/result_ring_countryVulnerable.png)
 ###### _Figure. %&%&%N. Spatial distribution of STC vulnerable countries_
 
-To further investigate the STC robustness, Figure %&%&%& shows the spatial distribution of the STC vulnerable countries, a detailed result can be found in Figure %&%&%&-1. The outer ring is the share of total bandwidth from each continents where as the inner ring gives the portion for every county. Continents with high percentage are Asia > Africa > North America > Oceania > South America > Europe. According to the figure, Asia is the most vulnerable continent as it gives the highest figure, but the segment is made up by a handful countries with high bandwidth. In contrast to North America and Africa, a smaller sector from each country with a high number country count. As a case concerns the South America, which only consists 3 vulnerable countries: French Guiana, Guyana and Suriname with a evenly distributed bandwidth allocation. The countries deliver a summed capacity and cable count of 209.65Tb/s and 2.67cables/country. 
+To further investigate the STC robustness, Figure %&%&%& shows the spatial distribution of the STC vulnerable countries. The outer ring is the share of total bandwidth from each continents where as the inner ring gives the portion for every county. Continents with high percentage are Asia > Africa > North America > Oceania > South America > Europe. According to the figure, Asia is the most vulnerable continent as it gives the highest figure, but the segment is made up by a handful countries with high bandwidth. In contrast to North America and Africa, a smaller sector from each country with a high number country count. As a case concerns the South America, which only consists 3 vulnerable countries: French Guiana, Guyana and Suriname with a evenly distributed bandwidth allocation. The countries deliver a summed capacity and cable count of 209.65Tb/s and 2.67cables/country. 
 
 ![result_hbar_bandwidthRobust_country](img/result_hbar_bandwidthRobust_country.png)
 ###### _Figure. %&%&%N. Scenarios of STC failures with most robust countries_
@@ -106,7 +106,7 @@ There are 94 countries assigned to STC robust group, as each country can withsta
 
 The USA is the leading player in remaining bandwidth after multiple cable failure, thanks to its excellent loosen cable distribution and availability of redundant cables. With cable edge $K_{usa}=29$ and estimated potential bandwidth of 1479.76Tb/s. After the connection loss of its widest cable Dunant, a reduction of 250Tb/s(16.89%) in the overall US bandwidth can be expected. Even in the worst case scenario in this study where top3 cables are failing at the same time, USA would still obtains remaining international bandwidth capacity of 642.43Tb/s. This number is still higher than the actual demand.(41.16Tb/s in 2022)(@itu_2022_country) Besides than that, the continental USA is geographically adjacent to Canada and Mexico which may provide additional TTC bandwidth capacity if necessary.
 
-A bad example of the cable distribution design is Isle of Man, as the result of disconnect in its widest cable Havhingsten/CeltixConnect-2, it would expect loss 98.66% of bandwidth, with remaining 1.42Tb/s remaining capacity from the rest of 3 cables.
+Isle of Man is a bad example of the cable distribution design, a estimated 98.66% bandwidth losses as the result of disconnect in its widest cable Havhingsten/CeltixConnect-2, with the remaining 1.42Tb/s  capacity from the rest of 3 cables.
 
 ### Low(landing station) level STC
 To better understand how STC distributed across the world, author also concerns a detailed low-level route for the STC paths. The figure below outline the landing stations and the geographical path of the global STC connection. Table %^%^%+1 provides summarizing the quantitative data from the dataset.
@@ -114,9 +114,9 @@ To better understand how STC distributed across the world, author also concerns 
 ![result_map_landingDistribution](img/result_map_landingDistribution.png)
 ###### _Figure. %&%&%N. STC network in landing station level_
 
-From the Table %^%^%+1 we can observe a highly skewed STC cable data distribution as the mean values are closed to 75% with a rapid increase in cable capacity, cable length, cable cost after that. 
+From the Table %^%^%+1 we can also observe a highly skewed STC cable data distribution as the mean values are closed to 75% with a rapid increase in cable capacity, cable length, cable cost after that. 
 
-| |country|landing station| cable capacity(Tb/s) | cable length(KM) | cable cost(million USD)|
+| |Country|Landing station| Cable capacity(Tb/s) | Cable length(KM) | Cable cost(million USD)|
 |---|---|---|---|---|---|
 |count |183.00|1335.00| 501.00 | 501.00 | 501.00|
 |mean ||| 50.42 | 3406.04 | 119.61|
@@ -188,10 +188,10 @@ To account for breakage risk of cable topology in the sea, one important issue t
 
 The betweenness centrality for each routing policy gives a power-law distribution pattern in Figure %&%&%&-1 while Table %^%^% contains the relevant summary statistics. This is a bad design in network science, where the route choice is heavily dependent on a handful of nodes to maintain its performance. If the failure happens on the high betweenness centrality node, this design would result in a dramatically deteriorate of the efficiency of the data flow when the network is switched to the sub-optimal route(eg. takes more time to the destination, narrowed bandwidth, higher usage cost). A more detailed data pattern across different routing policies, Figure %&%&%& gives a zoomed view of the first 500 nodes from the Figure %&%&%&-1. It is evident that Bandwidth > Cost > Latency in the first 300 nodes, which mostly explained the reason why the big difference in the mean value with the contrast of little variation in 75% values from Table %^%^%. 
 
-Therefore, a higher reduction in global STC bandwidth than the latency can be expected if any highlighted node/cable breaks down in the Figure %&%&%&+1 to Figure %&%&%&+3. Furthermore, the distribution of latency betweenness gives a shallowed curve with a lower standard deviation, which speaks to a more loosen network with higher resilience than other routing policies. In other words, the disconnect on a critical node would result in a more significant impact on the bandwidth capacity than transmission latency.
+Therefore, a higher reduction in global STC bandwidth than the latency can be expected if any highlighted node/cable breaks down in the Figure %&%&%&+1 to Figure %&%&%&+3. Furthermore, the distribution of latency betweenness gives a shallow curve with a lower standard deviation, which speaks to a more loosen network with higher resilience than other routing policies. In other words, the disconnect on a critical node would result in a more significant impact on the bandwidth capacity than transmission latency.
 
 ![result_map_betweenness_latency](img/result_map_betweenness_latency.png)
-###### _Figure. %&%&%N. Low-level Betweenness centrality map($C^L$)_
+###### _Figure. %&%&%N. Betweenness centrality map($C^L$)_
 
 ![result_map_betweenness_capacity](img/result_map_betweenness_capacity.png)
 ###### _Figure. %&%&%N. Betweenness centrality map($C^B$)_
@@ -201,7 +201,7 @@ Therefore, a higher reduction in global STC bandwidth than the latency can be ex
 
 Figure %&%&%&+1 aggregates the betweenness results above to provide an summary of the nodes distribution to the adjacent cables. Of the three classes of routing policies, each group is showing different focus of patterns. it is important to illustrate the role of betweenness centralities by different types of distance measures through out global STC network.
 
-Out of 3 routing policies, the spatial pattern reveals some informative clues. Firstly the latency betweenness measure of $C^L$ appears to maintain one highlighted connection between two geographic adjacent continents, especially in the route connecting from Singapore(Asia) to NewYork(North America) via UK(Europe). This result could be motivated by the demand on the financial sector(eg Stock exchange), as the data synchronization between financial data centers usually consists the feature of high requirement on realtime transmission. Secondary, the bandwidth betweenness shows a widespread distributed, this offers many benefit from reliability to data accessability. This distributed architecture does not propose critical bandwidth shortage problem to the remaining servers even the malfunction occurs on the most important node(eg India). As some of the web-services services can hosted on the existing cloud or CDN deployments, the widespread wide bandwidth cables are most clearly benefiting from the cloud hosted resources(eg. trending youtube videos) on the nearby CDN service stations. Finally, the cost betweenness highlights the necessary nodes required to achieve the minimum cost, showcase route from Singapore to Brazil via the India, UAE and South africa is high lighted, while this route avoids the most cable congested lane in Mediterranean Sea with a open connection in South africa. It is interesting to find out the overlap between $C^B$ and $C^C$ in East africa where the cables(eg 2Africa) are more advanced in budget controlling and bandwidth capacity.
+Out of 3 routing policies, the spatial pattern reveals some informative clues. Firstly the latency betweenness measure of $C^L$ appears to maintain one highlighted connection between two geographic adjacent continents, especially in the route connecting from Singapore(Asia) to NewYork(North America) via UK(Europe). This result could be motivated by the demand on the financial sector(eg Stock exchange), as the data synchronization between financial data centers usually consists the feature of high requirement on realtime transmission. Secondary, the bandwidth betweenness shows a widespread distributed, this offers many benefit from reliability to data accessibility. This distributed architecture does not propose critical bandwidth shortage problem to the remaining servers even the malfunction occurs on the most important node(eg India). As some of the web-services services can hosted on the existing cloud or CDN deployments, the widespread wide bandwidth cables are most clearly benefiting from the cloud hosted resources(eg. trending youtube videos) on the nearby CDN service stations. Finally, the cost betweenness highlights the necessary nodes required to achieve the minimum cost, showcase route from Singapore to Brazil via the India, UAE and South africa is high lighted, while this route avoids the most cable congested lane in Mediterranean Sea with a open connection in South africa. It is interesting to find out the overlap between $C^B$ and $C^C$ in East africa where the cables(eg 2Africa) are more advanced in budget controlling and bandwidth capacity.
 
 
 ![result_map_betweenness_aggregated](img/result_map_betweenness_aggregated.png)
@@ -212,8 +212,8 @@ Figure %&%&%& aggregates the previous betweenness analysis into one visualizatio
 ### Network optimization
 
 The Tonga volcano eruption on 20 Dec 2021 was believed as the largest volcanic eruption since the 1883 on record, which subsequently caused the destruction on its only STC on 15th Jan.(@cnn_2022_tonga)
-After 38 days of lack of full access to internet, repair ship Reliance replaced 92km of STC between Tonga to Fiji.(@tom_2022_internet) During that time the communication with outside world was backed up with satellite telecommunication, but the traffic shrank around 99%.
-![tonga_traffic](img/tonga_traffic.png)
+After 38 days of lack of full access to internet, repair ship Reliance replaced 92km of STC between Tonga to Fiji.(@tom_2022_internet) During that time the communication with outside world was backed up by satellite telecommunication, but the traffic shrank around 99%.
+![tonga_traffic](img/result_img_tongaTraffic.png)
 ###### _Figure. %&%&%N. Tonga internet traffic during the STC failure_(@cloudflare_2022_internet)
 
 #### Redundancy analysis
@@ -238,7 +238,7 @@ While analyzing the cost of the existing cables in the nearly water against with
 ![result_map_OptTonga_cost](img/result_map_OptTonga_cost.png)
 ###### _Figure. %&%&%N. Estimate cost to deploy redundant cables_
 
-With 25 years of industrial average service life, latter projection of the STC life expectancy will be based on that. Star link is the most common consumer level satellite internet services, as alternative technology to the STC. There are two parts of the costs to use the start link(@starlink_2022_starlink): hardware(\$599) and services(\$110/Mon), a functional working makes \$112 monthly capita cost can be expected in next 25 years. Meanwhile, the STC is sharing the same infrastructure cost regardless of the number of the internet users, the capita cost is inversely proportional to the number of subscribed user to the network. As the Figure %&%&%& shows, by the estimate from ITU in 2016 there are 55612 internet users in Tonga, Niue and American Samoa, it is cheaper to invest money in STC if more than 1862 units(individuals or companies) are willing to pay for the most standard data package in next 25 years. 
+With 25 years of industrial average service life, the infrastructure  life expectancy will be based on that. Star link is the most common consumer level satellite internet services, as alternative technology to the STC. There are two parts of the costs to use the start link(@starlink_2022_starlink): hardware(\$599) and services(\$110/Mon), a functional working makes \$112 monthly capita cost can be expected in next 25 years. Meanwhile, the STC is sharing the same infrastructure cost regardless of the number of the internet users, the capita cost is inversely proportional to the number of subscribed user to the network. As the Figure %&%&%&+1 shows, by the estimate from ITU in 2016 there are 55612 internet users in Tonga, Niue and American Samoa, it is cheaper to invest money in STC if more than 1862 units(individuals or companies) are willing to pay for the most standard data package in next 25 years. 
 
 ![result_line_OptTonga_costCompare](img/result_line_OptTonga_costCompare.png)
 ###### _Figure. %&%&%N. Cost of new STC compare with alternative technology_

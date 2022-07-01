@@ -40,13 +40,29 @@ As the weakness may either occur on the under water STC or the cable landing sta
 To overcome the problem of STC incidents, reroute the data flow to an alternative or secondary infrastructure would in worst performance but functional internet services. If the country/region only consists one STC connection, it is considered to be high risk country to STC failure due to its low redundancy. South pacific ocean has been know by its isolation to the majority of the world, the deployment of STC is not as well-developed as the rest of the world. This makes the countries(such as Tonga) extremely vulnerable and dependent to its only STC to communicate with rest of the world, but this risk could be mitigated by laying additional STC cables to increase its network redundancy. (@laporte_2015_chapter) Inspect a similar issue from Chinese postman problem(CPP) and provides an idea from another perspective. 
 
 ```
-BEGIN
-1. Check for Solvability
-2. Find imbalanced nodes
-3. Find additional paths
-4. Insert additional paths
-5. Specifying the Euler Tour
-END
+input: Grouph $G_{i}$    output: Grouph $G_{o}$
+Begin
+    odd_list = []
+    if G == EulerianCircuit
+        return G
+    while x in G.node
+        if x.degree \% 2 == 1
+            odd_list.add(x)
+    while odd_list != empty
+        distance = MAX
+        node = i, j
+        for x in odd_list
+            for y in odd_list
+                if 0 < path(x,y) < distance
+                    i = x
+                    j = y
+        connect_nodes(G, i, j)
+        remove_node(odd_list, i, j)
+    if G != EulerianCircuit
+        start again
+    else 
+        return G
+End    
 ```
 ###### Pseudocode of Chinese postman problem(Source: @tum_2015_the)
 
