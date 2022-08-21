@@ -6,11 +6,14 @@
 | 1 | 28/04 | Meeting log, Ethical form | Draft the structure of the report. Planed timeline(Gantt chart). Dataset collection  | Ethical form to be approved. Gantt chart of the project. |
 | 2 | 12/05 | Academia and publicity life cycle | Very first draft of the report, with certain amount of analysis the literature review  | Draft report up to method |
 | 3 | 01/06 | Review literature review and share practical necessary of reference management software | What kind of content should be placed in discussion&conclusion section | First draft report |
-| 4 | 14/06 | Content in appendix section, writing tools selection | Review report structure, context order, grammar  | Drafted report after self review|
+| 4 | 14/06 | Content in appendix section, writing tools selection | Review report structure, context order  | Drafted report after self review |
 | 5 | 27/06 | Academic paper structure, format | Generate the report in pdf version, check the reference format and table of content | Drafted report in Latex with select paper template |
 | 6 | 1/07 | Order of content in the paper | Discuss the content in Intro and Literature section, the content should be removed or change order | Adjusted project on Overleaf based on previous feedback |
 | 7 | 8/07 | Lean from the peers - How to use paper from other researchers | Reviewing the papers from others, compare and contrast with this project | Adjusted project on Overleaf based on previous feedback, 3 inspirational academic papers |
 | 8 | 22/07 | Ways to report document research methods | Methods | Improved document with more academic styled method section |
+| 9 | 05/08 | Discuss comments from supervisor | Visit the supervisor's comments, prepare materials for justification | Improved document based on the comments from supervisor |
+| 10 | 12/08 | Discuss comments from supervisor | Adding some scaffolding to some sections, reorganizing some subsections | Improved document based on the comments from supervisor |
+
 
 ## Research meeting log
 | Date | Documents prepared prior to meeting | Topics discussed in the meeting | Items to complete before next meeting | Date of next meeting |
